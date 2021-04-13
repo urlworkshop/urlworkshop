@@ -133,7 +133,7 @@ acknowledgements: ""
 <div class="row">
   <div class="col-xs-6 col-lg-3 people">
     <a href="https://ai.stanford.edu/~cbfinn/">
-      <img class="people-pic" src="{{ "/static/img/people/chelsea_finn.jpg" | prepend:site.baseurl }}">
+      <img class="people-pic" src="{{ "/static/img/people/chelsea_finn.jpeg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="https://ai.stanford.edu/~cbfinn/">Chelsea Finn</a>
@@ -160,7 +160,7 @@ acknowledgements: ""
   </div>
   <div class="col-xs-6 col-lg-3 people">
     <a href="https://nke001.github.io/">
-      <img class="people-pic" src="{{ "/static/img/people/nan_rosemary_ke.jpg" | prepend:site.baseurl }}">
+      <img class="people-pic" src="{{ "/static/img/people/nan_rosemary_ke.jpeg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="https://nke001.github.io/">Nan Rosemary Ke</a>
@@ -172,7 +172,7 @@ acknowledgements: ""
   </div>
   <div class="col-xs-6 col-lg-3 people">
     <a href="http://chercheurs.lille.inria.fr/~lazaric/Webpage/Home/Home.html">
-      <img class="people-pic" src="{{ "/static/img/people/alessazndro_lazaric.jpg" | prepend:site.baseurl }}">
+      <img class="people-pic" src="{{ "/static/img/people/alessazndro_lazaric.png" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="http://chercheurs.lille.inria.fr/~lazaric/Webpage/Home/Home.html">Alessandro Lazaric</a>
@@ -181,17 +181,16 @@ acknowledgements: ""
   </div>
   <div class="col-xs-6 col-lg-3 people">
     <a href="http://www.cs.umd.edu/~kdbrant/">
-      <img class="people-pic" src="{{ "/static/img/people/kiante_brantley.jpg" | prepend:site.baseurl }}">
+      <img class="people-pic" src="{{ "/static/img/people/kiante_brantley.png" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="http://www.cs.umd.edu/~kdbrant/">Kiante Brantley</a>
       <h6>Maryland College Park</h6>
     </div>
   </div>
-  </div>
   <div class="col-xs-6 col-lg-3 people">
     <a href="https://research.google/people/105004/">
-      <img class="people-pic" src="{{ "/static/img/people/david_ha.jpg" | prepend:site.baseurl }}">
+      <img class="people-pic" src="{{ "/static/img/people/david_ha.jpeg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="https://research.google/people/105004/">David Ha</a>
@@ -246,66 +245,66 @@ acknowledgements: ""
 </div>
 <div class="row">
   <div class="col-xs-6 col-lg-3 people">
+    <a href="https://feryal.github.io/">
+      <img class="people-pic" src="{{ "/static/img/people/feryal_behbahani.jpeg" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="https://feryal.github.io/">Feryal Behbahani</a>
+      <h6>DeepMind</h6>
+    </div>
+  </div>
+  <div class="col-xs-6 col-lg-3 people">
+    <a href="https://www.cs.mcgill.ca/~jpineau/">
+      <img class="people-pic" src="{{ "/static/img/people/joelle_pineau.jpeg" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="https://www.cs.mcgill.ca/~jpineau/">Joelle Pineau</a>
+      <h6>McGill University / Mila / Facebook</h6>
+    </div>
+  </div>
+  <div class="col-xs-6 col-lg-3 people">
+    <a href="https://www.lerrelpinto.com/">
+      <img class="people-pic" src="{{ "/static/img/people/lerrel_pinto.jpeg" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="https://www.lerrelpinto.com/">Lerrel Pinto/a>
+      <h6>New York University</h6>
+    </div>
+  </div>
+  <div class="col-xs-6 col-lg-3 people">
+    <a href="https://rraileanu.github.io/">
+      <img class="people-pic" src="{{ "/static/img/people/roberta_raileanu.png" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name people">
+      <a href="https://rraileanu.github.io/">Roberta Raileanu</a>
+      <h6>New York University</h6>
+    </div>
+  </div>
+  <div class="col-xs-6 col-lg-3 people">
+    <a href="https://people.eecs.berkeley.edu/~aravind/">
+      <img class="people-pic" src="{{ "/static/img/people/aravind_srinivas.png" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="https://people.eecs.berkeley.edu/~aravind/">Aravind Srinivas</a>
+      <h6>UC Berkeley</h6>
+    </div>
+  </div>
+  <div class="col-xs-6 col-lg-3 people">
+    <a href="http://denis-yarats.info/">
+      <img class="people-pic" src="{{ "/static/img/people/denis_yarats.jpeg" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="http://denis-yarats.info/">Denis Yarats</a>
+      <h6>New York University / Facebook</h6>
+    </div>
+  </div>
+   <div class="col-xs-6 col-lg-3 people">
     <a href="https://amyzhang.github.io/">
       <img class="people-pic" src="{{ "/static/img/people/amy_zhang.png" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="https://amyzhang.github.io/">Amy Zhang</a>
       <h6>McGill University / Mila / Facebook</h6>
-    </div>
-  </div>
-  <div class="col-xs-6 col-lg-3 people">
-    <a href="https://ankeshanand.com/">
-      <img class="people-pic" src="{{ "/static/img/people/ankesh_anand.jpg" | prepend:site.baseurl }}">
-    </a>
-    <div class="people-name">
-      <a href="https://ankeshanand.com/">Ankesh Anand</a>
-      <h6>University of Montreal / Mila</h6>
-    </div>
-  </div>
-  <div class="col-xs-6 col-lg-3 people">
-    <a href="https://bmazoure.github.io/">
-      <img class="people-pic" src="{{ "/static/img/people/bogdan_mazoure.jpg" | prepend:site.baseurl }}">
-    </a>
-    <div class="people-name">
-      <a href="https://bmazoure.github.io/">Bogdan Mazoure</a>
-      <h6>McGill University / Mila</h6>
-    </div>
-  </div>
-  <div class="col-xs-6 col-lg-3 people">
-    <a href="https://rdevon.github.io/">
-      <img class="people-pic" src="{{ "/static/img/people/devon_hjelm.jpg" | prepend:site.baseurl }}">
-    </a>
-    <div class="people-name people">
-      <a href="https://rdevon.github.io/">Devon Hjelm</a>
-      <h6>Microsoft Research / University of Montreal</h6>
-    </div>
-  </div>
-  <div class="col-xs-6 col-lg-3 people">
-    <a href="https://sites.ualberta.ca/~kjaved/">
-      <img class="people-pic" src="{{ "/static/img/people/khurram_javed.jpg" | prepend:site.baseurl }}">
-    </a>
-    <div class="people-name">
-      <a href="https://sites.ualberta.ca/~kjaved/">Khurram Javed</a>
-      <h6>University of Alberta / AMII</h6>
-    </div>
-  </div>
-  <div class="col-xs-6 col-lg-3 people">
-    <a href="http://webdocs.cs.ualberta.ca/~whitem/">
-      <img class="people-pic" src="{{ "/static/img/people/martha_white.jpg" | prepend:site.baseurl }}">
-    </a>
-    <div class="people-name">
-      <a href="http://webdocs.cs.ualberta.ca/~whitem/">Martha White</a>
-      <h6>University of Alberta / AMII</h6>
-    </div>
-  </div>
-  <div class="col-xs-6 col-lg-3 people">
-    <a href="https://tldoan.github.io/">
-      <img class="people-pic" src="{{ "/static/img/people/thang_doan.jpg" | prepend:site.baseurl }}">
-    </a>
-    <div class="people-name">
-      <a href="https://tldoan.github.io/">Thang Doan</a>
-      <h6>McGill University / Mila</h6>
     </div>
   </div>
 </div>
