@@ -1,28 +1,28 @@
 ---
 layout: project
-urltitle:  "Self-supervision for reinforcement learning (SSL-RL)"
-title: "Self-supervision for reinforcement learning (SSL-RL)"
-categories: workshop, iclr, self-supervised learning, reinforcement learning, deep learning, 2021
+urltitle:  "Unsupervised Reinforcement Learning (URL)"
+title: "Unsupervised Reinforcement Learning (URL)"
+categories: workshop, icml, unsupervised learning, self-supervised learning, reinforcement learning, deep learning, 2021
 permalink: /
 bibtex: true
 paper: true
 acknowledgements: ""
 ---
 <div class="alert" role="alert">
-    
-<p>Update: We've extended the submission 
-    deadline to March 7th AoE!</p>
-    
+
+
+
 </div>
 <div class="row reverse">
   <div class="col-xs-12 col-md-7">
-    <h1>Self-supervision for Reinforcement Learning (SSL-RL)</h1>
+    <h1>Unsupervised Reinforcement Learning (URL)</h1>
     <br>
-    <h4>May 8, 2021 // ICLR Workshop</h4>
+    <h4>July , 2021 // ICML Workshop</h4>
     <br>
     <br>
     <p>
-        Reinforcement learning (RL) entails letting an agent learn through interaction with an environment. The formalism is powerful in it’s generality, and presents us with a hard open-ended problem: how can we design agents that learn efficiently, and generalize well, given only sensory information and a scalar reward signal? The goal of this workshop is to explore the role of self-supervised learning within reinforcement learning agents, to make progress towards this goal. 
+        Unsupervised learning has begun to deliver on its promise in the recent past with tremendous progress made in the fields of natural language processing and computer vision whereby large scale unsupervised pre-training has enabled fine-tuning to downstream supervised learning tasks with limited labeled data. This is particularly encouraging and appealing in the context of reinforcement learning considering that it is expensive to perform rollouts in the real world with annotations either in the form of reward signals or human demonstrations. We therefore believe that a workshop in the intersection of unsupervised and reinforcement learning is timely and we hope to bring together researchers with diverse views on how to make further progress in this exciting and open-ended subfield.
+
     </p>
   </div>
   <div class="col-md-1 hidden-xs">
@@ -36,7 +36,7 @@ acknowledgements: ""
 
 <div class="row">
     <div class="col-xs-8">
-        
+
     </div>
 
 </div>
@@ -57,19 +57,19 @@ acknowledgements: ""
       <tbody>
         <tr>
           <td>Paper Submission Deadline</td>
-          <td><s>February 26, 2021</s> March 7, 2021 AoE</td>
+          <td><s>XXX, 2021</s> XXX, 2021 AoE</td>
         </tr>
         <tr>
           <td>Decision Notifications</td>
-          <td>March 26, 2021 </td>
+          <td>XXX, 2021 </td>
         </tr>
         <tr>
           <td>Camera Ready Paper Deadline</td>
-          <td>April 15, 2021 AoE</td>
+          <td>XXX, 2021 AoE</td>
         </tr>
         <tr>
           <td>Workshop</td>
-          <td>May 8, 2021</td>
+          <td>XXX, 2021</td>
         </tr>
       </tbody>
     </table>
@@ -92,7 +92,7 @@ acknowledgements: ""
 <div class="row">
   <div class="col-xs-12">
     <p>
-      We invite both short (4 page) and long (8 page) anonymized submissions in the <a href="https://github.com/ICLR/Master-Template/raw/master/archive/iclr2021.zip">ICLR LaTeX format</a> that develop algorithms, benchmarks, and ideas to allow reinforcement learning agents to learn more effectively by making self-supervised predictions about their environment. More concretely, we welcome submissions around, but not necessarily limited to, the following broad questions: 
+      We invite both short (4 page) and long (8 page) anonymized submissions in the <a href="https://media.icml.cc/Conferences/ICML2021/Styles/icml2021_style.zip">ICML LaTeX format</a> that develop algorithms, benchmarks, and ideas to allow reinforcement learning agents to learn more effectively by making self-supervised predictions about their environment. More concretely, we welcome submissions around, but not necessarily limited to, the following broad questions:
     </p>
     <p>
           <ul>
@@ -107,7 +107,7 @@ acknowledgements: ""
       </p>
       <p>We welcome review and positional papers that may foster discussions. We also encourage published papers from <i>*non-ML*</i> conferences, e.g. epistemology, cognitive science, psychology, neuroscience, that are within the scope of the workshop.
        Note that as per ICLR guidelines, we don't accept works previously published in other conferences on machine learning, but are open to works that are currently under submission to a conference (such as ICML 2021).</p>
-      
+
       <p>
         Submissions should be uploaded on OpenReview: <a class="red" href="https://openreview.net/group?id=ICLR.cc/2021/Workshop/SSL-RL">SSL-RL submission link</a>
       </p>
@@ -132,20 +132,20 @@ acknowledgements: ""
 
 <div class="row">
   <div class="col-xs-6 col-lg-3 people">
-    <a href="http://www.pyoudeyer.com/">
-      <img class="people-pic" src="{{ "/static/img/people/py_oudeyer.jpg" | prepend:site.baseurl }}">
+    <a href="https://ai.stanford.edu/~cbfinn/">
+      <img class="people-pic" src="{{ "/static/img/people/chelsea_finn.jpg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
-      <a href="http://www.pyoudeyer.com/">Pierre-Yves Oudeyer</a>
-      <h6>INRIA/ Flowers team</h6>
+      <a href="https://ai.stanford.edu/~cbfinn/">Chelsea Finn</a>
+      <h6>Stanford</h6>
     </div>
   </div>
   <div class="col-xs-6 col-lg-3 people">
-    <a href="https://scholar.google.com/citations?user=YWVuCKUAAAAJ&hl=en">
-      <img class="people-pic" src="{{ "/static/img/people/irina_higgins.png" | prepend:site.baseurl }}">
+    <a href="https://web.mit.edu/krallen/www/">
+      <img class="people-pic" src="{{ "/static/img/people/kelsey_allen.png" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
-      <a href="https://scholar.google.com/citations?user=YWVuCKUAAAAJ&hl=en">Irina Higgins</a>
+      <a href="https://web.mit.edu/krallen/www/">Kelsey Allen</a>
       <h6>DeepMind</h6>
     </div>
   </div>
@@ -159,33 +159,43 @@ acknowledgements: ""
     </div>
   </div>
   <div class="col-xs-6 col-lg-3 people">
-    <a href="http://www.elisevanderpol.nl/">
-      <img class="people-pic" src="{{ "/static/img/people/elise_van_der_pol.jpg" | prepend:site.baseurl }}">
+    <a href="https://nke001.github.io/">
+      <img class="people-pic" src="{{ "/static/img/people/nan_rosemary_ke.jpg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
-      <a href="http://www.elisevanderpol.nl/">Elise van der Pol</a>
-      <h6>University of Amsterdam</h6>
+      <a href="https://nke001.github.io/">Nan Rosemary Ke</a>
+      <h6>MILA</h6>
     </div>
   </div>
   <div class="col-xs-6 col-lg-3 people">
-    
+
   </div>
   <div class="col-xs-6 col-lg-3 people">
-    <a href="https://www.microsoft.com/en-us/research/people/jcl/">
-      <img class="people-pic" src="{{ "/static/img/people/john_langford.jpg" | prepend:site.baseurl }}">
+    <a href="http://chercheurs.lille.inria.fr/~lazaric/Webpage/Home/Home.html">
+      <img class="people-pic" src="{{ "/static/img/people/alessazndro_lazaric.jpg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
-      <a href="https://www.microsoft.com/en-us/research/people/jcl/">John Langford</a>
-      <h6>Microsoft Research, New York</h6>
+      <a href="http://chercheurs.lille.inria.fr/~lazaric/Webpage/Home/Home.html">Alessandro Lazaric</a>
+      <h6>Facebook AI Research</h6>
     </div>
   </div>
   <div class="col-xs-6 col-lg-3 people">
-    <a href="http://www.princeton.edu/~yael/">
-      <img class="people-pic" src="{{ "/static/img/people/yael_niv.jpg" | prepend:site.baseurl }}">
+    <a href="http://www.cs.umd.edu/~kdbrant/">
+      <img class="people-pic" src="{{ "/static/img/people/kiante_brantley.jpg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
-      <a href="http://www.princeton.edu/~yael/">Yael Niv</a>
-      <h6>Princeton</h6>
+      <a href="http://www.cs.umd.edu/~kdbrant/">Kiante Brantley</a>
+      <h6>Maryland College Park</h6>
+    </div>
+  </div>
+  </div>
+  <div class="col-xs-6 col-lg-3 people">
+    <a href="https://research.google/people/105004/">
+      <img class="people-pic" src="{{ "/static/img/people/david_ha.jpg" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="https://research.google/people/105004/">David Ha</a>
+      <h6>Google Brain</h6>
     </div>
   </div>
 </div>
@@ -195,7 +205,7 @@ acknowledgements: ""
 <div class="row" id="intro">
     <div class="col-xs-12">
         <h2>Introduction</h2>
-        <p>Self-Supervised Learning for a RL agent involves the agent learning (and possibly discovering) many predictions about it’s world. For example, a natural self-supervised prediction task within an agent is to learn the transition dynamics of the environment [1-4]. But given the rich sequential and interactive nature of RL environments, many other prediction tasks could be used as well [5-9]. Self-supervised learning has several possible benefits. First, the agent can directly use its learned primitives to facilitate future learning, by endowing itself with learned priors instead of starting tabula-rasa [10-12]. Second, the agent can indirectly benefit from the learned predictions, by learning a representation that is useful for many different predictions [13]. Such a representation should also facilitate efficient learning [14-15] and exhibit better generalization [16-17]</p>. 
+        <p>Self-Supervised Learning for a RL agent involves the agent learning (and possibly discovering) many predictions about it’s world. For example, a natural self-supervised prediction task within an agent is to learn the transition dynamics of the environment [1-4]. But given the rich sequential and interactive nature of RL environments, many other prediction tasks could be used as well [5-9]. Self-supervised learning has several possible benefits. First, the agent can directly use its learned primitives to facilitate future learning, by endowing itself with learned priors instead of starting tabula-rasa [10-12]. Second, the agent can indirectly benefit from the learned predictions, by learning a representation that is useful for many different predictions [13]. Such a representation should also facilitate efficient learning [14-15] and exhibit better generalization [16-17]</p>.
 
         <p> The aims of this workshop are to explore the potential benefits of self-supervision, how to specify self-supervised tasks, and to bring together people from different areas, including Cognitive Science, Reinforcement Learning, and Computer Vision, with a common interest in building better learning agents. The specific research questions we hope to tackle include:</p>
         <ul>
@@ -216,13 +226,13 @@ acknowledgements: ""
         <p> The Mind Match event is aimed as a catalyst for discussion between researchers with shared interests,
          similar to the <a href="https://neuromatch.io/instructions/how-to-register">Neuromatch</a> and <a href="https://baicsworkshop.github.io/format.html">BAICS</a> events.
          Participants will be split into small groups according to topics of interest,
-         and will have a chance to informally chat, discuss together and potentially setup collaborations. 
-         </p> 
+         and will have a chance to informally chat, discuss together and potentially setup collaborations.
+         </p>
          <p>
-         Sing up 
-         <a href="https://docs.google.com/forms/d/1yJAQnIRLRaUd3Zxn6pAmSLxNY8OBseO5Jw4EZxHQG9s" class="red">here</a>, 
-         and we will notify you of your groups and the meeting link prior to the event. 
-        </p>. 
+         Sing up
+         <a href="https://docs.google.com/forms/d/1yJAQnIRLRaUd3Zxn6pAmSLxNY8OBseO5Jw4EZxHQG9s" class="red">here</a>,
+         and we will notify you of your groups and the meeting link prior to the event.
+        </p>.
 
     </div>
 </div>
@@ -311,7 +321,7 @@ acknowledgements: ""
 <div class="row">
   <div class="col-md-12">
     <ol>
-<li>Finn, Chelsea, Ian Goodfellow, and Sergey Levine. "Unsupervised learning for physical interaction through video prediction." NeurIPS (2016).</li>   
+<li>Finn, Chelsea, Ian Goodfellow, and Sergey Levine. "Unsupervised learning for physical interaction through video prediction." NeurIPS (2016).</li>
 <li>Ha, David, and Jürgen Schmidhuber. "Recurrent world models facilitate policy evolution." NeurIPS (2018). </li>
 <li>Hafner, Danijar, et al. "Learning latent dynamics for planning from pixels." ICML (2019).  </li>
 <li>Kipf, Thomas, Elise van der Pol, and Max Welling. "Contrastive learning of structured world models." arXiv.  (2019). </li>
