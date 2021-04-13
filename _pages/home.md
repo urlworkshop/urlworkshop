@@ -168,11 +168,8 @@ acknowledgements: ""
     </div>
   </div>
   <div class="col-xs-6 col-lg-3 people">
-
-  </div>
-  <div class="col-xs-6 col-lg-3 people">
     <a href="http://chercheurs.lille.inria.fr/~lazaric/Webpage/Home/Home.html">
-      <img class="people-pic" src="{{ "/static/img/people/alessazndro_lazaric.png" | prepend:site.baseurl }}">
+      <img class="people-pic" src="{{ "/static/img/people/alessandro_lazaric.png" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="http://chercheurs.lille.inria.fr/~lazaric/Webpage/Home/Home.html">Alessandro Lazaric</a>
@@ -267,7 +264,7 @@ acknowledgements: ""
       <img class="people-pic" src="{{ "/static/img/people/lerrel_pinto.jpeg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
-      <a href="https://www.lerrelpinto.com/">Lerrel Pinto/a>
+      <a href="https://www.lerrelpinto.com/">Lerrel Pinto</a>
       <h6>New York University</h6>
     </div>
   </div>
@@ -298,7 +295,7 @@ acknowledgements: ""
       <h6>New York University / Facebook</h6>
     </div>
   </div>
-   <div class="col-xs-6 col-lg-3 people">
+  <div class="col-xs-6 col-lg-3 people">
     <a href="https://amyzhang.github.io/">
       <img class="people-pic" src="{{ "/static/img/people/amy_zhang.png" | prepend:site.baseurl }}">
     </a>
