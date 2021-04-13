@@ -256,7 +256,7 @@ acknowledgements: ""
     </a>
     <div class="people-name">
       <a href="https://www.cs.mcgill.ca/~jpineau/">Joelle Pineau</a>
-      <h6>McGill University / Mila / Facebook</h6>
+      <h6>McGill University / Mila / FAIR</h6>
     </div>
   </div>
   <div class="col-xs-6 col-lg-3 people">
@@ -265,7 +265,7 @@ acknowledgements: ""
     </a>
     <div class="people-name">
       <a href="https://www.lerrelpinto.com/">Lerrel Pinto</a>
-      <h6>New York University</h6>
+      <h6>NYU</h6>
     </div>
   </div>
   <div class="col-xs-6 col-lg-3 people">
@@ -274,7 +274,16 @@ acknowledgements: ""
     </a>
     <div class="people-name people">
       <a href="https://rraileanu.github.io/">Roberta Raileanu</a>
-      <h6>New York University</h6>
+      <h6>NYU</h6>
+    </div>
+  </div>
+  <div class="col-xs-6 col-lg-3 people">
+    <a href="https://amyzhang.github.io/">
+      <img class="people-pic" src="{{ "/static/img/people/amy_zhang.png" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="https://amyzhang.github.io/">Amy Zhang</a>
+      <h6>McGill University / Mila / FAIR</h6>
     </div>
   </div>
   <div class="col-xs-6 col-lg-3 people">
@@ -292,16 +301,7 @@ acknowledgements: ""
     </a>
     <div class="people-name">
       <a href="http://denis-yarats.info/">Denis Yarats</a>
-      <h6>New York University / Facebook</h6>
-    </div>
-  </div>
-  <div class="col-xs-6 col-lg-3 people">
-    <a href="https://amyzhang.github.io/">
-      <img class="people-pic" src="{{ "/static/img/people/amy_zhang.png" | prepend:site.baseurl }}">
-    </a>
-    <div class="people-name">
-      <a href="https://amyzhang.github.io/">Amy Zhang</a>
-      <h6>McGill University / Mila / Facebook</h6>
+      <h6>NYU / FAIR</h6>
     </div>
   </div>
 </div>
