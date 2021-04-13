@@ -252,7 +252,7 @@ acknowledgements: ""
   </div>
   <div class="col-xs-6 col-lg-3 people">
     <a href="https://www.cs.mcgill.ca/~jpineau/">
-      <img class="people-pic" src="{{ "/static/img/people/joelle_pineau.jpeg" | prepend:site.baseurl }}">
+      <img class="people-pic" src="{{ "/static/img/people/joelle_pineau.png" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="https://www.cs.mcgill.ca/~jpineau/">Joelle Pineau</a>
@@ -288,7 +288,7 @@ acknowledgements: ""
   </div>
   <div class="col-xs-6 col-lg-3 people">
     <a href="http://denis-yarats.info/">
-      <img class="people-pic" src="{{ "/static/img/people/denis_yarats.jpg" | prepend:site.baseurl }}">
+      <img class="people-pic" src="{{ "/static/img/people/denis_yarats.png" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
       <a href="http://denis-yarats.info/">Denis Yarats</a>
