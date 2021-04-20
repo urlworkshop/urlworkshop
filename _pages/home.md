@@ -50,11 +50,11 @@ acknowledgements: ""
       <tbody>
         <tr>
           <td>Paper Submission Deadline</td>
-          <td><s>June 9, 2021 AoE</td>
+          <td>June 9, 2021 AoE</td>
         </tr>
         <tr>
           <td>Decision Notifications</td>
-          <td>June 30, 2021 </td>
+          <td>June 30, 2021</td>
         </tr>
         <tr>
           <td>Camera Ready Paper Deadline</td>
@@ -72,9 +72,9 @@ acknowledgements: ""
 <br />
 
 <div class="row" id="cfp">
-  <div class="col-xs-12">
+
     <h2>Call for Papers</h2>
-  </div>
+
 </div>
 
 
