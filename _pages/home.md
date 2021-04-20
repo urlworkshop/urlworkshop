@@ -214,9 +214,7 @@ However, in the context of reinforcement learning, we haven’t seen the level o
 <hr />
 
 <div class="row" id="organizers">
-  <div class="col-xs-12">
     <h2>Organizers</h2>
-  </div>
 </div>
 <div class="row">
   <div class="col-xs-6 col-lg-3 people">
@@ -288,12 +286,9 @@ However, in the context of reinforcement learning, we haven’t seen the level o
 
 
 <div class="row">
-  <div class="col-xs-12">
     <h2>References</h2>
-  </div>
 </div>
 <div class="row">
-  <div class="col-md-12">
     <ol>
 <li>Finn, Chelsea, Ian Goodfellow, and Sergey Levine. "Unsupervised learning for physical interaction through video prediction." NeurIPS (2016).</li>
 <li>Ha, David, and Jürgen Schmidhuber. "Recurrent world models facilitate policy evolution." NeurIPS (2018). </li>
@@ -319,7 +314,7 @@ However, in the context of reinforcement learning, we haven’t seen the level o
 <li>Schwarzer, Max, et al. "Data-Efficient Reinforcement Learning with Self-Predictive Representations." ICLR (2021) </li>
 
 </ol>
-  </div>
+
 </div>
 
 <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0)">
