@@ -116,7 +116,7 @@ acknowledgements: ""
 <br />
 
 
-
+<hr />
 
 <div class="row" id="speakers">
     <h2>Speakers</h2>
