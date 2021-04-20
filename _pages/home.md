@@ -14,10 +14,12 @@ acknowledgements: ""
 
 </div>
 <div class="row reverse">
-    <h1>Unsupervised Reinforcement Learning Workshop @ ICML 2021</h1>
+    <h1>Unsupervised Reinforcement Learning @ ICML 2021</h1>
     <br>
+      <br>
     <img class="cover" src="/static/img/cover.jpeg">
     <br>
+      <br>
 
 
 </div>
@@ -41,7 +43,7 @@ acknowledgements: ""
   </div>
 </div>
 
-<br>
+
 <div class="row">
   <div class="col-xs-12">
     <table class="table table-striped">
