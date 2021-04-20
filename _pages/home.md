@@ -24,9 +24,9 @@ acknowledgements: ""
 
 </div>
 
-<div class="row" id="intro">
+<div class="row" id="abstract">
 
-    <h2>Introduction</h2>
+    <h2>Abstract</h2>
 
     <p>
         Unsupervised learning has begun to deliver on its promise in the recent past with tremendous progress made in the fields of natural language processing and computer vision whereby large scale unsupervised pre-training has enabled fine-tuning to downstream supervised learning tasks with limited labeled data. This is particularly encouraging and appealing in the context of reinforcement learning considering that it is expensive to perform rollouts in the real world with annotations either in the form of reward signals or human demonstrations. We therefore believe that a workshop in the intersection of unsupervised and reinforcement learning is timely and we hope to bring together researchers with diverse views on how to make further progress in this exciting and open-ended subfield.
@@ -45,7 +45,6 @@ acknowledgements: ""
 
 
 <div class="row">
-  <div class="col-xs-12">
     <table class="table table-striped">
       <tbody>
         <tr>
@@ -66,7 +65,6 @@ acknowledgements: ""
         </tr>
       </tbody>
     </table>
-  </div>
 </div>
 
 <br />
@@ -83,7 +81,6 @@ acknowledgements: ""
 
 
 <div class="row">
-  <div class="col-xs-12">
     <p>
       We invite both short (4 page) and long (8 page) anonymized submissions in the <a href="https://media.icml.cc/Conferences/ICML2021/Styles/icml2021_style.zip">ICML LaTeX format</a> that develop algorithms, benchmarks, and ideas to allow reinforcement learning agents to learn more effectively by making self-supervised predictions about their environment. More concretely, we welcome submissions around, but not necessarily limited to, the following broad questions:
     </p>
@@ -108,7 +105,6 @@ acknowledgements: ""
         In case of any issues or questions, feel free to email the workshop organizers at: <a href="mailto:url.icml2021@gmail.com" class="red">url.icml2021@gmail.com</a>.
       </p>
 
-  </div>
 </div>
 
 
