@@ -15,7 +15,7 @@ acknowledgements: ""
 </div>
 <div class="row reverse">
   <div class="col-xs-12 col-md-7">
-    <h1>Unsupervised Reinforcement Learning (URL)</h1>
+    <h1>Unsupervised Reinforcement Learning Workshop</h1>
     <br>
     <h4>July , 2021 // ICML Workshop</h4>
     <br>
@@ -25,10 +25,12 @@ acknowledgements: ""
 
     </p>
   </div>
-  <div class="col-md-1 hidden-xs">
-  </div>
+</div>
+
+</div>
+<div class="row reverse">
   <div class="col-xs-12 col-md-4">
-    <img class="cover" src="/static/img/cover.jpg">
+    <img class="cover" src="/static/img/cover.jpeg">
   </div>
 </div>
 
