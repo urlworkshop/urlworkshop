@@ -98,8 +98,8 @@ acknowledgements: ""
               <li>Is there a unified view to combine different UL methods into a single framework?</li>
           </ul>
       </p>
-      <p>This workshop will bring together researchers working in unsupervised learning (including those in computer vision or natural language processing), representation learning and reinforcement learning to discuss the benefits, challenges and potential solutions for effectively using unsupervised learning techniques to enhance reinforcement learning agents. Early workshops were crucial to accelerate the use of UL techniques in vision and language, and we hope this workshop will serve as the kindling for UL techniques in RL.
-
+      <p>This workshop will bring together researchers working in unsupervised learning (including those in computer vision or natural language processing), representation learning and reinforcement learning to discuss the benefits, challenges and potential solutions for effectively using unsupervised learning techniques to enhance reinforcement learning agents. Early workshops were crucial to accelerate the use of UL techniques in vision and language, and we hope this workshop will serve as the kindling for UL techniques in RL.</p>
+      <p>
        Note that as per ICML guidelines, we don't accept works previously published in other conferences on machine learning, but are open to works that are currently under submission to a conference (such as NeurIPS 2021).</p>
 
       <p>
@@ -192,46 +192,24 @@ acknowledgements: ""
 <hr />
 
 <div class="row" id="intro">
-    <div class="col-xs-12">
         <h2>Introduction</h2>
-        For decades unsupervised learning (UL) has promised to drastically reduce our reliance on supervision and reinforcement. Now, in the last couple of years, unsupervised learning has been delivering on this problem with substantial advances in computer vision [e.g., CPC (Oord et al., 2018), SimCLR (Chen et al., 2020), MoCo (He et al., 2019), BYOL (Grill et al., 2020)] and natural language processing [e.g., BERT (Devlin et al., 2018), GPT-x (OpenAI), T5 (Raffel et al., 2019), Roberta (Liu et al., 2019)]. The general purpose representations learned by unsupervised methods are useful for a variety of downstream supervised learning tasks, particularly in the low data regime [BERT (Devlin et al., 2018), GPT-3 (OpenAI), T5 (Rafel et al., 2019), CPCv2 (Henaff et al., 2019), SimCLR (Chen et al., 2020), SimCLRv2 (Chen et el., 2020)].
+        <p>For decades unsupervised learning (UL) has promised to drastically reduce our reliance on supervision and reinforcement. Now, in the last couple of years, unsupervised learning has been delivering on this problem with substantial advances in computer vision [e.g., CPC (Oord et al., 2018), SimCLR (Chen et al., 2020), MoCo (He et al., 2019), BYOL (Grill et al., 2020)] and natural language processing [e.g., BERT (Devlin et al., 2018), GPT-x (OpenAI), T5 (Raffel et al., 2019), Roberta (Liu et al., 2019)]. The general purpose representations learned by unsupervised methods are useful for a variety of downstream supervised learning tasks, particularly in the low data regime [BERT (Devlin et al., 2018), GPT-3 (OpenAI), T5 (Rafel et al., 2019), CPCv2 (Henaff et al., 2019), SimCLR (Chen et al., 2020), SimCLRv2 (Chen et el., 2020)].</p>
+<p>
+However, in the context of reinforcement learning, we haven’t seen the level of impact UL has had in vision and language. This is not for the lack of trying. There has been a wide variety of methods developed by the Machine Learning community to use UL to make a meaningful impact in RL. A few prominent directions are as follows:</p>
+<p>
+<ul>
 
-However, in the context of reinforcement learning, we haven’t seen the level of impact UL has had in vision and language. This is not for the lack of trying. There has been a wide variety of methods developed by the Machine Learning community to use UL to make a meaningful impact in RL. A few prominent directions are as follows:
+ <li>Learning rich representations of high dimensional observations to aid reinforcement learning [UNREAL (Jaderberg et el., 2016), DARLA (Higgins et al., 2017), TCN (Sermanet et al., 2017), SAC-AE (Yarats et al., 2019), SLAC (Lee et al., 2019), CURL (Srinivas et al., 2020), ATC (Stooke et al., 2020), Bisimulation (Zhang et al., 2020)]</li>
+<li>Building world models for planning [Visual MPC (Hirose et al., 2019), World Models (Hafner et al., 2020), Simple (Kaiser et al., 2019), PlaNet (Hafner et al., 2018), Dreamer (Hafner et al., 2019), MuZero (Schrittwieser et al., 2019)]</li>
+<li>Learning to explore environments with sparse reward signals [EX2 (Fu et al., 2019), Curiosity (Pathak et al., 2019), RND (Burda et al., 2018)]</li>
+<li>Learning task agnostic, diverse and reusable skills [VIC (Gregor et al., 2016), VALOR (Achiam et al., 2018), DIAYN (Eysenbach et al., 2018),  DISCERN (Warde-Farley et al., 2018), DADS (Sharma et al., 2019)]</li>
+<li>Extracting signals for free with goal-conditioned and hindsight models [UVFA (Schaul et al., 2015), HER (Andrychowicz et al., 2017), Asymmetric Self-Play (Sukhbaatar et al., 2017), RIG (Nair et al., 2017), DPN (Yu et al., 2017), Learning From Play (Lynch  et al., 2019)]</li>
+<li>Unsupervised Learning in the context of Meta/Multi-Task Learning [CARML (Jabri et al., 2019), UML (Gupta et al., 2018)]</li>
+</ul>
 
-Learning rich representations of high dimensional observations to aid reinforcement learning [UNREAL (Jaderberg et el., 2016), DARLA (Higgins et al., 2017), TCN (Sermanet et al., 2017), SAC-AE (Yarats et al., 2019), SLAC (Lee et al., 2019), CURL (Srinivas et al., 2020), ATC (Stooke et al., 2020), Bisimulation (Zhang et al., 2020)]
-Building world models for planning [Visual MPC (Hirose et al., 2019), World Models (Hafner et al., 2020), Simple (Kaiser et al., 2019), PlaNet (Hafner et al., 2018), Dreamer (Hafner et al., 2019), MuZero (Schrittwieser et al., 2019)]
-Learning to explore environments with sparse reward signals [EX2 (Fu et al., 2019), Curiosity (Pathak et al., 2019), RND (Burda et al., 2018)]
-Learning task agnostic, diverse and reusable skills [VIC (Gregor et al., 2016), VALOR (Achiam et al., 2018), DIAYN (Eysenbach et al., 2018),  DISCERN (Warde-Farley et al., 2018), DADS (Sharma et al., 2019)]
-Extracting signals for free with goal-conditioned and hindsight models [UVFA (Schaul et al., 2015), HER (Andrychowicz et al., 2017), Asymmetric Self-Play (Sukhbaatar et al., 2017), RIG (Nair et al., 2017), DPN (Yu et al., 2017), Learning From Play (Lynch  et al., 2019)]
-Unsupervised Learning in the context of Meta/Multi-Task Learning [CARML (Jabri et al., 2019), UML (Gupta et al., 2018)]
-
-These early works suggest that unsupervised approaches could significantly improve RL algorithms. However, this research direction is still in its infancy, which leaves many open questions regarding the best ways of combining unsupervised learning with RL. As a community we still do not know how to evaluate learned representations, measure the impact of UL, and understand how UL can benefit RL the most. The workshop discussions and presentations aim to address, among others, the following questions and topics:
-
-How can the use of UL advance RL?
-What are the most effective ways of combining UL with RL?
-What are the settings in which UL can be most beneficial in RL?
-How is Representation Learning for RL different than for downstream supervised tasks?
-How can UL improve RL in terms of sample efficiency, generalization, exploration?
-How can UL and Skill Discovery be maximally synergetic?
-How does the role of UL differ across Model-based RL, Model-free On-policy RL, Model-free Off-policy RL, Offline RL?
-What inspirations can we take from cognitive science to bridge to inspire the next crop of UL methods for RL?
-Is there a unified view to combine different UL methods into a single framework?
-
-This workshop will bring together researchers working in unsupervised learning (including those in computer vision or natural language processing), representation learning and reinforcement learning to discuss the benefits, challenges and potential solutions for effectively using unsupervised learning techniques to enhance reinforcement learning agents. Early workshops were crucial to accelerate the use of UL techniques in vision and language, and we hope this workshop will serve as the kindling for UL techniques in RL.
-
-
-        <p> The aims of this workshop are to explore the potential benefits of self-supervision, how to specify self-supervised tasks, and to bring together people from different areas, including Cognitive Science, Reinforcement Learning, and Computer Vision, with a common interest in building better learning agents. The specific research questions we hope to tackle include:</p>
-        <ul>
-        <li>How can we leverage unsupervised data to bootstrap learning in an MDP, and what primitives should we learn: dynamics, representation, skills or something else?</li>
-        <li>How can we measure progress in development of self-supervised, general purpose agents? Do we need to create a GLUE like benchmark for RL?</li>
-        <li>What kind of structure in an MDP can an agent exploit to learn a task faster?</li>
-        <li>How can we design self-supervised objectives that encourage an agent to generalize well out of its training distribution?</li>
-        <li>Can we leverage insights from cognitive science on how humans acquire knowledge to build better self-supervised objectives?</li>
-        </ul>
-    </div>
 </div>
 
-<hr />
+
 
 
 <hr />
