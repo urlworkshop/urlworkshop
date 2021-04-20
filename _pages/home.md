@@ -192,7 +192,7 @@ acknowledgements: ""
 
 <div class="row" id="intro">
         <h2>Introduction</h2>
-        <p>For decades unsupervised learning (UL) has promised to drastically reduce our reliance on supervision and reinforcement. Now, in the last couple of years, unsupervised learning has been delivering on this problem with substantial advances in computer vision [e.g., CPC (Oord et al., 2018), SimCLR (Chen et al., 2020), MoCo (He et al., 2019), BYOL (Grill et al., 2020)] and natural language processing [e.g., BERT (Devlin et al., 2018), GPT-x (OpenAI), T5 (Raffel et al., 2019), Roberta (Liu et al., 2019)]. The general purpose representations learned by unsupervised methods are useful for a variety of downstream supervised learning tasks, particularly in the low data regime [BERT (Devlin et al., 2018), GPT-3 (OpenAI), T5 (Rafel et al., 2019), CPCv2 (Henaff et al., 2019), SimCLR (Chen et al., 2020), SimCLRv2 (Chen et el., 2020)].</p>
+        <p>For decades unsupervised learning (UL) has promised to drastically reduce our reliance on supervision and reinforcement. Now, in the last couple of years, unsupervised learning has been delivering on this problem with substantial advances in computer vision [e.g., CPC [1], SimCLR (Chen et al., 2020), MoCo (He et al., 2019), BYOL (Grill et al., 2020)] and natural language processing [e.g., BERT (Devlin et al., 2018), GPT-x (OpenAI), T5 (Raffel et al., 2019), Roberta (Liu et al., 2019)]. The general purpose representations learned by unsupervised methods are useful for a variety of downstream supervised learning tasks, particularly in the low data regime [BERT (Devlin et al., 2018), GPT-3 (OpenAI), T5 (Rafel et al., 2019), CPCv2 (Henaff et al., 2019), SimCLR (Chen et al., 2020), SimCLRv2 (Chen et el., 2020)].</p>
   <p>
   However, in the context of reinforcement learning, we haven’t seen the level of impact UL has had in vision and language. This is not for the lack of trying. There has been a wide variety of methods developed by the Machine Learning community to use UL to make a meaningful impact in RL. A few prominent directions are as follows:</p>
   <p>
@@ -291,6 +291,7 @@ acknowledgements: ""
 </div>
 <div class="row">
     <ol>
+<li>Oord et al. "Representation Learning with Contrastive Predictive Coding." arXiv (2018).</li>
 <li>Finn, Chelsea, Ian Goodfellow, and Sergey Levine. "Unsupervised learning for physical interaction through video prediction." NeurIPS (2016).</li>
 <li>Ha, David, and Jürgen Schmidhuber. "Recurrent world models facilitate policy evolution." NeurIPS (2018). </li>
 <li>Hafner, Danijar, et al. "Learning latent dynamics for planning from pixels." ICML (2019).  </li>
