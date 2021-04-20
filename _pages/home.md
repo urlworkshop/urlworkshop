@@ -193,18 +193,19 @@ acknowledgements: ""
 <div class="row" id="intro">
         <h2>Introduction</h2>
         <p>For decades unsupervised learning (UL) has promised to drastically reduce our reliance on supervision and reinforcement. Now, in the last couple of years, unsupervised learning has been delivering on this problem with substantial advances in computer vision [e.g., CPC (Oord et al., 2018), SimCLR (Chen et al., 2020), MoCo (He et al., 2019), BYOL (Grill et al., 2020)] and natural language processing [e.g., BERT (Devlin et al., 2018), GPT-x (OpenAI), T5 (Raffel et al., 2019), Roberta (Liu et al., 2019)]. The general purpose representations learned by unsupervised methods are useful for a variety of downstream supervised learning tasks, particularly in the low data regime [BERT (Devlin et al., 2018), GPT-3 (OpenAI), T5 (Rafel et al., 2019), CPCv2 (Henaff et al., 2019), SimCLR (Chen et al., 2020), SimCLRv2 (Chen et el., 2020)].</p>
-<p>
-However, in the context of reinforcement learning, we haven’t seen the level of impact UL has had in vision and language. This is not for the lack of trying. There has been a wide variety of methods developed by the Machine Learning community to use UL to make a meaningful impact in RL. A few prominent directions are as follows:</p>
-<p>
-<ul>
+  <p>
+  However, in the context of reinforcement learning, we haven’t seen the level of impact UL has had in vision and language. This is not for the lack of trying. There has been a wide variety of methods developed by the Machine Learning community to use UL to make a meaningful impact in RL. A few prominent directions are as follows:</p>
+  <p>
+  <ul>
 
- <li>Learning rich representations of high dimensional observations to aid reinforcement learning [UNREAL (Jaderberg et el., 2016), DARLA (Higgins et al., 2017), TCN (Sermanet et al., 2017), SAC-AE (Yarats et al., 2019), SLAC (Lee et al., 2019), CURL (Srinivas et al., 2020), ATC (Stooke et al., 2020), Bisimulation (Zhang et al., 2020)]</li>
-<li>Building world models for planning [Visual MPC (Hirose et al., 2019), World Models (Hafner et al., 2020), Simple (Kaiser et al., 2019), PlaNet (Hafner et al., 2018), Dreamer (Hafner et al., 2019), MuZero (Schrittwieser et al., 2019)]</li>
-<li>Learning to explore environments with sparse reward signals [EX2 (Fu et al., 2019), Curiosity (Pathak et al., 2019), RND (Burda et al., 2018)]</li>
-<li>Learning task agnostic, diverse and reusable skills [VIC (Gregor et al., 2016), VALOR (Achiam et al., 2018), DIAYN (Eysenbach et al., 2018),  DISCERN (Warde-Farley et al., 2018), DADS (Sharma et al., 2019)]</li>
-<li>Extracting signals for free with goal-conditioned and hindsight models [UVFA (Schaul et al., 2015), HER (Andrychowicz et al., 2017), Asymmetric Self-Play (Sukhbaatar et al., 2017), RIG (Nair et al., 2017), DPN (Yu et al., 2017), Learning From Play (Lynch  et al., 2019)]</li>
-<li>Unsupervised Learning in the context of Meta/Multi-Task Learning [CARML (Jabri et al., 2019), UML (Gupta et al., 2018)]</li>
-</ul>
+  <li>Learning rich representations of high dimensional observations to aid reinforcement learning [UNREAL (Jaderberg et el., 2016), DARLA (Higgins et al., 2017), TCN (Sermanet et al., 2017), SAC-AE (Yarats et al., 2019), SLAC (Lee et al., 2019), CURL (Srinivas et al., 2020), ATC (Stooke et al., 2020), Bisimulation (Zhang et al., 2020)]</li>
+  <li>Building world models for planning [Visual MPC (Hirose et al., 2019), World Models (Hafner et al., 2020), Simple (Kaiser et al., 2019), PlaNet (Hafner et al., 2018), Dreamer (Hafner et al., 2019), MuZero (Schrittwieser et al., 2019)]</li>
+  <li>Learning to explore environments with sparse reward signals [EX2 (Fu et al., 2019), Curiosity (Pathak et al., 2019), RND (Burda et al., 2018)]</li>
+  <li>Learning task agnostic, diverse and reusable skills [VIC (Gregor et al., 2016), VALOR (Achiam et al., 2018), DIAYN (Eysenbach et al., 2018),  DISCERN (Warde-Farley et al., 2018), DADS (Sharma et al., 2019)]</li>
+  <li>Extracting signals for free with goal-conditioned and hindsight models [UVFA (Schaul et al., 2015), HER (Andrychowicz et al., 2017), Asymmetric Self-Play (Sukhbaatar et al., 2017), RIG (Nair et al., 2017), DPN (Yu et al., 2017), Learning From Play (Lynch  et al., 2019)]</li>
+  <li>Unsupervised Learning in the context of Meta/Multi-Task Learning [CARML (Jabri et al., 2019), UML (Gupta et al., 2018)]</li>
+  </ul>
+  </p>
 
 </div>
 
