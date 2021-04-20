@@ -29,18 +29,7 @@ acknowledgements: ""
 
 </div>
 <div class="row reverse">
-  <div class="col-xs-12 col-md-4">
     <img class="cover" src="/static/img/cover.jpeg">
-  </div>
-</div>
-
-<br/>
-
-<div class="row">
-    <div class="col-xs-8">
-
-    </div>
-
 </div>
 
 
@@ -59,19 +48,19 @@ acknowledgements: ""
       <tbody>
         <tr>
           <td>Paper Submission Deadline</td>
-          <td><s>XXX, 2021</s> XXX, 2021 AoE</td>
+          <td><s>June 9, 2021 AoE</td>
         </tr>
         <tr>
           <td>Decision Notifications</td>
-          <td>XXX, 2021 </td>
+          <td>June 30, 2021 </td>
         </tr>
         <tr>
           <td>Camera Ready Paper Deadline</td>
-          <td>XXX, 2021 AoE</td>
+          <td>July 17, 2021 AoE</td>
         </tr>
         <tr>
           <td>Workshop</td>
-          <td>XXX, 2021</td>
+          <td>July 24, 2021</td>
         </tr>
       </tbody>
     </table>
@@ -111,10 +100,10 @@ acknowledgements: ""
        Note that as per ICLR guidelines, we don't accept works previously published in other conferences on machine learning, but are open to works that are currently under submission to a conference (such as ICML 2021).</p>
 
       <p>
-        Submissions should be uploaded on OpenReview: <a class="red" href="https://openreview.net/group?id=ICLR.cc/2021/Workshop/SSL-RL">SSL-RL submission link</a>
+        Submissions should be uploaded on OpenReview: <a class="red" href="https://openreview.net/group?id=ICML.cc/2021/Workshop/URL">URL submission link</a>
       </p>
       <p>
-        In case of any issues or questions, feel free to email the workshop organizers at: <a href="mailto:sslrl.ws.iclr2021@gmail.com" class="red">sslrl.ws.iclr2021@gmail.com</a>.
+        In case of any issues or questions, feel free to email the workshop organizers at: <a href="mailto:url.icml2021@gmail.com" class="red">url.icml2021@gmail.com</a>.
       </p>
 
   </div>
@@ -203,7 +192,31 @@ acknowledgements: ""
 <div class="row" id="intro">
     <div class="col-xs-12">
         <h2>Introduction</h2>
-        <p>Self-Supervised Learning for a RL agent involves the agent learning (and possibly discovering) many predictions about it’s world. For example, a natural self-supervised prediction task within an agent is to learn the transition dynamics of the environment [1-4]. But given the rich sequential and interactive nature of RL environments, many other prediction tasks could be used as well [5-9]. Self-supervised learning has several possible benefits. First, the agent can directly use its learned primitives to facilitate future learning, by endowing itself with learned priors instead of starting tabula-rasa [10-12]. Second, the agent can indirectly benefit from the learned predictions, by learning a representation that is useful for many different predictions [13]. Such a representation should also facilitate efficient learning [14-15] and exhibit better generalization [16-17]</p>.
+        For decades unsupervised learning (UL) has promised to drastically reduce our reliance on supervision and reinforcement. Now, in the last couple of years, unsupervised learning has been delivering on this problem with substantial advances in computer vision [e.g., CPC (Oord et al., 2018), SimCLR (Chen et al., 2020), MoCo (He et al., 2019), BYOL (Grill et al., 2020)] and natural language processing [e.g., BERT (Devlin et al., 2018), GPT-x (OpenAI), T5 (Raffel et al., 2019), Roberta (Liu et al., 2019)]. The general purpose representations learned by unsupervised methods are useful for a variety of downstream supervised learning tasks, particularly in the low data regime [BERT (Devlin et al., 2018), GPT-3 (OpenAI), T5 (Rafel et al., 2019), CPCv2 (Henaff et al., 2019), SimCLR (Chen et al., 2020), SimCLRv2 (Chen et el., 2020)].
+
+However, in the context of reinforcement learning, we haven’t seen the level of impact UL has had in vision and language. This is not for the lack of trying. There has been a wide variety of methods developed by the Machine Learning community to use UL to make a meaningful impact in RL. A few prominent directions are as follows:
+
+Learning rich representations of high dimensional observations to aid reinforcement learning [UNREAL (Jaderberg et el., 2016), DARLA (Higgins et al., 2017), TCN (Sermanet et al., 2017), SAC-AE (Yarats et al., 2019), SLAC (Lee et al., 2019), CURL (Srinivas et al., 2020), ATC (Stooke et al., 2020), Bisimulation (Zhang et al., 2020)]
+Building world models for planning [Visual MPC (Hirose et al., 2019), World Models (Hafner et al., 2020), Simple (Kaiser et al., 2019), PlaNet (Hafner et al., 2018), Dreamer (Hafner et al., 2019), MuZero (Schrittwieser et al., 2019)]
+Learning to explore environments with sparse reward signals [EX2 (Fu et al., 2019), Curiosity (Pathak et al., 2019), RND (Burda et al., 2018)]
+Learning task agnostic, diverse and reusable skills [VIC (Gregor et al., 2016), VALOR (Achiam et al., 2018), DIAYN (Eysenbach et al., 2018),  DISCERN (Warde-Farley et al., 2018), DADS (Sharma et al., 2019)]
+Extracting signals for free with goal-conditioned and hindsight models [UVFA (Schaul et al., 2015), HER (Andrychowicz et al., 2017), Asymmetric Self-Play (Sukhbaatar et al., 2017), RIG (Nair et al., 2017), DPN (Yu et al., 2017), Learning From Play (Lynch  et al., 2019)]
+Unsupervised Learning in the context of Meta/Multi-Task Learning [CARML (Jabri et al., 2019), UML (Gupta et al., 2018)]
+
+These early works suggest that unsupervised approaches could significantly improve RL algorithms. However, this research direction is still in its infancy, which leaves many open questions regarding the best ways of combining unsupervised learning with RL. As a community we still do not know how to evaluate learned representations, measure the impact of UL, and understand how UL can benefit RL the most. The workshop discussions and presentations aim to address, among others, the following questions and topics:
+
+How can the use of UL advance RL?
+What are the most effective ways of combining UL with RL?
+What are the settings in which UL can be most beneficial in RL?
+How is Representation Learning for RL different than for downstream supervised tasks?
+How can UL improve RL in terms of sample efficiency, generalization, exploration?
+How can UL and Skill Discovery be maximally synergetic?
+How does the role of UL differ across Model-based RL, Model-free On-policy RL, Model-free Off-policy RL, Offline RL?
+What inspirations can we take from cognitive science to bridge to inspire the next crop of UL methods for RL?
+Is there a unified view to combine different UL methods into a single framework?
+
+This workshop will bring together researchers working in unsupervised learning (including those in computer vision or natural language processing), representation learning and reinforcement learning to discuss the benefits, challenges and potential solutions for effectively using unsupervised learning techniques to enhance reinforcement learning agents. Early workshops were crucial to accelerate the use of UL techniques in vision and language, and we hope this workshop will serve as the kindling for UL techniques in RL.
+
 
         <p> The aims of this workshop are to explore the potential benefits of self-supervision, how to specify self-supervised tasks, and to bring together people from different areas, including Cognitive Science, Reinforcement Learning, and Computer Vision, with a common interest in building better learning agents. The specific research questions we hope to tackle include:</p>
         <ul>
@@ -218,22 +231,6 @@ acknowledgements: ""
 
 <hr />
 
-<div class="row" id="mindmatch">
-    <div class="col-xs-12">
-        <h2>Mind Match Program</h2>
-        <p> The Mind Match event is aimed as a catalyst for discussion between researchers with shared interests,
-         similar to the <a href="https://neuromatch.io/instructions/how-to-register">Neuromatch</a> and <a href="https://baicsworkshop.github.io/format.html">BAICS</a> events.
-         Participants will be split into small groups according to topics of interest,
-         and will have a chance to informally chat, discuss together and potentially setup collaborations.
-         </p>
-         <p>
-         Sing up
-         <a href="https://docs.google.com/forms/d/1yJAQnIRLRaUd3Zxn6pAmSLxNY8OBseO5Jw4EZxHQG9s" class="red">here</a>,
-         and we will notify you of your groups and the meeting link prior to the event.
-        </p>.
-
-    </div>
-</div>
 
 <hr />
 
