@@ -29,7 +29,7 @@ acknowledgements: ""
     <h2>Abstract</h2>
 
     <p>
-        Unsupervised learning has begun to deliver on its promise in the recent past with tremendous progress made in the fields of natural language processing and computer vision whereby large scale unsupervised pre-training has enabled fine-tuning to downstream supervised learning tasks with limited labeled data. This is particularly encouraging and appealing in the context of reinforcement learning considering that it is expensive to perform rollouts in the real world with annotations either in the form of reward signals or human demonstrations. We therefore believe that a workshop in the intersection of unsupervised and reinforcement learning is timely and we hope to bring together researchers with diverse views on how to make further progress in this exciting and open-ended subfield.
+        Unsupervised learning (UL) has begun to deliver on its promise in the recent past with tremendous progress made in the fields of natural language processing and computer vision whereby large scale unsupervised pre-training has enabled fine-tuning to downstream supervised learning tasks with limited labeled data. This is particularly encouraging and appealing in the context of reinforcement learning considering that it is expensive to perform rollouts in the real world with annotations either in the form of reward signals or human demonstrations. We therefore believe that a workshop in the intersection of unsupervised and reinforcement learning (RL) is timely and we hope to bring together researchers with diverse views on how to make further progress in this exciting and open-ended subfield.
 
     </p>
 </div>
@@ -82,21 +82,25 @@ acknowledgements: ""
 
 <div class="row">
     <p>
-      We invite both short (4 page) and long (8 page) anonymized submissions in the <a href="https://media.icml.cc/Conferences/ICML2021/Styles/icml2021_style.zip">ICML LaTeX format</a> that develop algorithms, benchmarks, and ideas to allow reinforcement learning agents to learn more effectively by making self-supervised predictions about their environment. More concretely, we welcome submissions around, but not necessarily limited to, the following broad questions:
+      We invite both short (4 page) and long (8 page) anonymized submissions in the <a href="https://media.icml.cc/Conferences/ICML2021/Styles/icml2021_style.zip">ICML LaTeX format</a> that
+      study questions regarding the best ways of combining unsupervised learning with RL. More concretely, we welcome submissions around, but not necessarily limited to, the following broad questions:
     </p>
     <p>
           <ul>
-              <li>How can we leverage large amounts of unlabelled sensory data from diverse sources to bootstrap learning for reinforcement learning tasks?</li>
-              <li>Can we use auxiliary targets --- generated in an unsupervised manner --- to accelerate learning?</li>
-              <li>Can we meta-learn auxiliary targets that accelerate learning for a wide range of tasks?</li>
-              <li>Can we build benchmarks and protocols for systematically comparing existing self-supervision methods? </li>
-              <li>Do agents that learn multiple auxiliary predictions generalize better to new environments than those that learn purely by maximizing the reward?</li>
-              <li>Can we learn predictive state representations to accelerate learning and generalization?  </li>
-              <li>Can we benefit from insights gained from cognitive and neuroscience to build better self-supervisory objectives? </li>
+              <li>How can the use of UL advance RL?</li>
+              <li>What are the most effective ways of combining UL with RL?</li>
+              <li>What are the settings in which UL can be most beneficial in RL?</li>
+              <li>How is Representation Learning for RL different from downstream supervised tasks?</li>
+              <li>How can UL improve RL in terms of sample efficiency, generalization, exploration?</li>
+              <li>How can UL and Skill Discovery be maximally synergetic?</li>
+              <li>How does the role of UL differ across Model-based RL, Model-free On-policy RL, Model-free Off-policy RL, Offline RL?</li>
+              <li>What inspirations can we take from cognitive science to bridge to inspire the next crop of UL methods for RL?</li>
+              <li>Is there a unified view to combine different UL methods into a single framework?</li>
           </ul>
       </p>
-      <p>We welcome review and positional papers that may foster discussions. We also encourage published papers from <i>*non-ML*</i> conferences, e.g. epistemology, cognitive science, psychology, neuroscience, that are within the scope of the workshop.
-       Note that as per ICLR guidelines, we don't accept works previously published in other conferences on machine learning, but are open to works that are currently under submission to a conference (such as ICML 2021).</p>
+      <p>This workshop will bring together researchers working in unsupervised learning (including those in computer vision or natural language processing), representation learning and reinforcement learning to discuss the benefits, challenges and potential solutions for effectively using unsupervised learning techniques to enhance reinforcement learning agents. Early workshops were crucial to accelerate the use of UL techniques in vision and language, and we hope this workshop will serve as the kindling for UL techniques in RL.
+
+       Note that as per ICML guidelines, we don't accept works previously published in other conferences on machine learning, but are open to works that are currently under submission to a conference (such as NeurIPS 2021).</p>
 
       <p>
         Submissions should be uploaded on OpenReview: <a class="red" href="https://openreview.net/group?id=ICML.cc/2021/Workshop/URL">URL submission link</a>
