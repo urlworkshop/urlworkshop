@@ -26,7 +26,6 @@ acknowledgements: ""
 
 <div class="row" id="abstract">
 
-    <h2>Abstract</h2>
 
     <p>
         Unsupervised learning (UL) has begun to deliver on its promise in the recent past with tremendous progress made in the fields of natural language processing and computer vision whereby large scale unsupervised pre-training has enabled fine-tuning to downstream supervised learning tasks with limited labeled data. This is particularly encouraging and appealing in the context of reinforcement learning considering that it is expensive to perform rollouts in the real world with annotations either in the form of reward signals or human demonstrations. We therefore believe that a workshop in the intersection of unsupervised and reinforcement learning (RL) is timely and we hope to bring together researchers with diverse views on how to make further progress in this exciting and open-ended subfield.
@@ -36,6 +35,8 @@ acknowledgements: ""
 
 
 <br />
+
+<hr />
 
 <div class="row" id="dates">
 
@@ -68,7 +69,7 @@ acknowledgements: ""
 </div>
 
 <br />
-
+<hr />
 <div class="row" id="cfp">
 
     <h2>Call for Papers</h2>
@@ -115,7 +116,7 @@ acknowledgements: ""
 <br />
 
 
-<hr />
+
 
 <div class="row" id="speakers">
     <h2>Speakers</h2>
