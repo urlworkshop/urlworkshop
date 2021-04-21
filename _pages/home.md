@@ -199,10 +199,10 @@ acknowledgements: ""
   <ul>
 
   <li>Learning rich representations of high dimensional observations to aid reinforcement learning (UNREAL [11], DARLA [12], TCN [13], SAC-AE [14], SLAC [15], CURL [16], DrQ [17], RAD [18], ATC [19], Bisimulation [20], Proto-RL [21]).</li>
-  <li>Building world models for planning (Visual MPC [22], Simple [23], PlaNet [24], Dreamer [25], MuZero [26])</li>
-  <li>Learning to explore environments with sparse reward signals [EX2 (Fu et al., 2019), Curiosity (Pathak et al., 2019), RND (Burda et al., 2018)]</li>
-  <li>Learning task agnostic, diverse and reusable skills [VIC (Gregor et al., 2016), VALOR (Achiam et al., 2018), DIAYN (Eysenbach et al., 2018),  DISCERN (Warde-Farley et al., 2018), DADS (Sharma et al., 2019)]</li>
-  <li>Extracting signals for free with goal-conditioned and hindsight models [UVFA (Schaul et al., 2015), HER (Andrychowicz et al., 2017), Asymmetric Self-Play (Sukhbaatar et al., 2017), RIG (Nair et al., 2017), DPN (Yu et al., 2017), Learning From Play (Lynch  et al., 2019)]</li>
+  <li>Building world models for planning (Visual MPC [22], Simple [23], PlaNet [24], Dreamer [25], MuZero [26]).</li>
+  <li>Learning to explore environments with sparse reward signals (EX2 [27], Curiosity [28], RND [29]).</li>
+  <li>Learning task agnostic, diverse and reusable skills (VIC [30], VALOR [31], DIAYN [32],, DADS [33]).</li>
+  <li>Extracting signals for free with goal-conditioned and hindsight models (UVFA [34], HER [35], Asymmetric Self-Play [36], RIG [37], DPN (Yu et al., 2017), Learning From Play (Lynch  et al., 2019)]</li>
   <li>Unsupervised Learning in the context of Meta/Multi-Task Learning [CARML (Jabri et al., 2019), UML (Gupta et al., 2018)]</li>
 
   </ul>
@@ -318,7 +318,22 @@ acknowledgements: ""
 <li>Kaiser et al. "Model-Based Reinforcement Learning for Atari." ArXiv (2019).</li>
 <li>Hafner et al. "Learning Latent Dynamics for Planning from Pixels." ICML (2019).</li>
 <li>Hafner et al. "Dream to Control: Learning Behaviors by Latent Imagination." ICLR (2020).</li>Schrittwieser et al. "Mastering Atari, Go, chess and shogi by planning with a learned model." Nature (2020).</li>
-<li>
+<li>Fu et al. "EX2: Exploration with Exemplar Models for Deep Reinforcement Learning." ArXiv (2017).</li>
+<li>Pathak et al. "Curiosity-driven Exploration by Self-supervised Prediction." ICML (2017).</li>
+<li>Burda et al. "Exploration by random network distillation." ICLR (2019). </li>
+<li>Gregor et al. "Variational Intrinsic Control." ArXiv (2016). </li>
+<li>Achiam et al. "Variational Option Discovery Algorithms." ArXiv (2018). </li>
+<li>Eysenbach et al. "Diversity is All You Need: Learning Skills without a Reward Function." ICLR (2019).</li>
+<li>Sharma et al. "Dynamics-Aware Unsupervised Discovery of Skills." ICLR (2020).</li>
+<li>Schaul et al. "Universal Value Function Approximators." ICML (2015).</li>
+<li>Andrychowicz et al. "Hindsight Experience Replay." NeurIPS (2017).</li>
+<li>Sukhbaatar et al. "Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play." ICLR (2018).</li>
+<li>Nair et al. "Visual Reinforcement Learning with Imagined Goals." NeurIPS (2018).</li>
+
+
+
+
+
 
 
 
