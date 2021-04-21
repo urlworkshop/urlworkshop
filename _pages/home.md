@@ -291,7 +291,7 @@ acknowledgements: ""
     <h2>References</h2>
 </div>
 <div class="row">
-    <ol>
+<ol>
 <li>Oord et al. "Representation Learning with Contrastive Predictive Coding." arXiv (2018).</li>
 <li>Chen et al. "A Simple Framework for Contrastive Learning of Visual Representations." ICML (2020).</li>
 <li> He et al. "Momentum Contrast for Unsupervised Visual Representation Learning." CVPR (2020).</li>
@@ -308,7 +308,6 @@ acknowledgements: ""
 <li>Yarats et al. "Improving Sample Efficiency in Model-Free Reinforcement Learning from Images." AAAI (2021).</li>
 <li>Lee et al. "Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model." ArXiv (2019).</li>
 <li>Srinivas et al. "Contrastive Unsupervised Representations for Reinforcement Learning." ICML (2020).</li>
-
 <li>Yarats et al. "Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels." ICLR (2021).</li>
 <li>Laskin et al. "Reinforcement Learning with Augmented Data." NeurIPS (2020).</li>
 <li>Stook et al. "Decoupling Representation Learning from Reinforcement Learning." ArXiv (2020).</li>
@@ -320,9 +319,9 @@ acknowledgements: ""
 <li>Hafner et al. "Dream to Control: Learning Behaviors by Latent Imagination." ICLR (2020).<li>Schrittwieser et al. "Mastering Atari, Go, chess and shogi by planning with a learned model." Nature (2020).</li>
 <li>Fu et al. "EX2: Exploration with Exemplar Models for Deep Reinforcement Learning." ArXiv (2017).</li>
 <li>Pathak et al. "Curiosity-driven Exploration by Self-supervised Prediction." ICML (2017).</li>
-<li>Burda et al. "Exploration by random network distillation." ICLR (2019). </li>
+<li>Burda et al. "Exploration by random network distillation." ICLR (2019).</li>
 <li>Gregor et al. "Variational Intrinsic Control." ArXiv (2016). </li>
-<li>Achiam et al. "Variational Option Discovery Algorithms." ArXiv (2018). </li>
+<li>Achiam et al. "Variational Option Discovery Algorithms." ArXiv (2018).</li>
 <li>Eysenbach et al. "Diversity is All You Need: Learning Skills without a Reward Function." ICLR (2019).</li>
 <li>Sharma et al. "Dynamics-Aware Unsupervised Discovery of Skills." ICLR (2020).</li>
 <li>Schaul et al. "Universal Value Function Approximators." ICML (2015).</li>
@@ -332,21 +331,6 @@ acknowledgements: ""
 <li>Lynch et al. "Learning Latent Plans from Play." CoRL (2019).</li>
 <li>Jabri et al. "Unsupervised Curricula for Visual Meta-Reinforcement Learning." NeurIPS (2019).</li>
 <li>Gupta et al. "Unsupervised Meta-Learning for Reinforcement Learning." ICLR (2019).</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </ol>
 
