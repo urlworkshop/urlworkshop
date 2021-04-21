@@ -199,7 +199,7 @@ acknowledgements: ""
   <ul>
 
   <li>Learning rich representations of high dimensional observations to aid reinforcement learning (UNREAL [11], DARLA [12], TCN [13], SAC-AE [14], SLAC [15], CURL [16], DrQ [17], RAD [18], ATC [19], Bisimulation [20], Proto-RL [21]).</li>
-  <li>Building world models for planning [Visual MPC (Hirose et al., 2019), World Models (Hafner et al., 2020), Simple (Kaiser et al., 2019), PlaNet (Hafner et al., 2018), Dreamer (Hafner et al., 2019), MuZero (Schrittwieser et al., 2019)]</li>
+  <li>Building world models for planning (Visual MPC [22], Simple [23], PlaNet [24], Dreamer [25], MuZero [26])</li>
   <li>Learning to explore environments with sparse reward signals [EX2 (Fu et al., 2019), Curiosity (Pathak et al., 2019), RND (Burda et al., 2018)]</li>
   <li>Learning task agnostic, diverse and reusable skills [VIC (Gregor et al., 2016), VALOR (Achiam et al., 2018), DIAYN (Eysenbach et al., 2018),  DISCERN (Warde-Farley et al., 2018), DADS (Sharma et al., 2019)]</li>
   <li>Extracting signals for free with goal-conditioned and hindsight models [UVFA (Schaul et al., 2015), HER (Andrychowicz et al., 2017), Asymmetric Self-Play (Sukhbaatar et al., 2017), RIG (Nair et al., 2017), DPN (Yu et al., 2017), Learning From Play (Lynch  et al., 2019)]</li>
@@ -314,6 +314,11 @@ acknowledgements: ""
 <li>Stook et al. "Decoupling Representation Learning from Reinforcement Learning." ArXiv (2020).</li>
 <li>Zhang et al. "Learning Invariant Representations for Reinforcement Learning without Reconstruction." ICLR (2021).</li>
 <li>Yarats et al. "Reinforcement Learning with Prototypical Representations." ArXiv (2021).</li>
+<li>Hirose et al. "Deep Visual MPC-Policy Learning for Navigation." ArXiv (2019).</li>
+<li>Kaiser et al. "Model-Based Reinforcement Learning for Atari." ArXiv (2019).</li>
+<li>Hafner et al. "Learning Latent Dynamics for Planning from Pixels." ICML (2019).</li>
+<li>Hafner et al. "Dream to Control: Learning Behaviors by Latent Imagination." ICLR (2020).</li>Schrittwieser et al. "Mastering Atari, Go, chess and shogi by planning with a learned model." Nature (2020).</li>
+<li>
 
 
 
