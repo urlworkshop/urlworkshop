@@ -202,8 +202,8 @@ acknowledgements: ""
   <li>Building world models for planning (Visual MPC [22], Simple [23], PlaNet [24], Dreamer [25], MuZero [26]).</li>
   <li>Learning to explore environments with sparse reward signals (EX2 [27], Curiosity [28], RND [29]).</li>
   <li>Learning task agnostic, diverse and reusable skills (VIC [30], VALOR [31], DIAYN [32],, DADS [33]).</li>
-  <li>Extracting signals for free with goal-conditioned and hindsight models (UVFA [34], HER [35], Asymmetric Self-Play [36], RIG [37], DPN (Yu et al., 2017), Learning From Play (Lynch  et al., 2019)]</li>
-  <li>Unsupervised Learning in the context of Meta/Multi-Task Learning [CARML (Jabri et al., 2019), UML (Gupta et al., 2018)]</li>
+  <li>Extracting signals for free with goal-conditioned and hindsight models (UVFA [34], HER [35], Asymmetric Self-Play [36], RIG [37], Learning From Play [38]).</li>
+  <li>Unsupervised Learning in the context of Meta/Multi-Task Learning (CARML [39], UML [40]).</li>
 
   </ul>
   </p>
@@ -329,6 +329,9 @@ acknowledgements: ""
 <li>Andrychowicz et al. "Hindsight Experience Replay." NeurIPS (2017).</li>
 <li>Sukhbaatar et al. "Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play." ICLR (2018).</li>
 <li>Nair et al. "Visual Reinforcement Learning with Imagined Goals." NeurIPS (2018).</li>
+<li>Lynch et al. "Learning Latent Plans from Play." CoRL (2019).</li>
+<li>Jabri et al. "Unsupervised Curricula for Visual Meta-Reinforcement Learning." NeurIPS (2019).</li>
+<li>Gupta et al. "Unsupervised Meta-Learning for Reinforcement Learning." ICLR (2019).</li>
 
 
 
