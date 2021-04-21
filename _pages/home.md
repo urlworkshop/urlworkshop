@@ -192,18 +192,19 @@ acknowledgements: ""
 
 <div class="row" id="intro">
         <h2>Introduction</h2>
-        <p>For decades unsupervised learning (UL) has promised to drastically reduce our reliance on supervision and reinforcement. Now, in the last couple of years, unsupervised learning has been delivering on this problem with substantial advances in computer vision [e.g., CPC [1], SimCLR (Chen et al., 2020), MoCo (He et al., 2019), BYOL (Grill et al., 2020)] and natural language processing [e.g., BERT (Devlin et al., 2018), GPT-x (OpenAI), T5 (Raffel et al., 2019), Roberta (Liu et al., 2019)]. The general purpose representations learned by unsupervised methods are useful for a variety of downstream supervised learning tasks, particularly in the low data regime [BERT (Devlin et al., 2018), GPT-3 (OpenAI), T5 (Rafel et al., 2019), CPCv2 (Henaff et al., 2019), SimCLR (Chen et al., 2020), SimCLRv2 (Chen et el., 2020)].</p>
+        <p>For decades unsupervised learning (UL) has promised to drastically reduce our reliance on supervision and reinforcement. Now, in the last couple of years, unsupervised learning has been delivering on this problem with substantial advances in computer vision (e.g., CPC [1], SimCLR [2], MoCo [3], BYOL [4]) and natural language processing (e.g., BERT [5], GPT-3 [6], T5 [7], Roberta [8]). The general purpose representations learned by unsupervised methods are useful for a variety of downstream supervised learning tasks, particularly in the low data regime (BERT [5], GPT-3 [6], T5 [7], CPCv2 [9], SimCLR [2], SimCLRv2 [10]).</p>
   <p>
   However, in the context of reinforcement learning, we haven’t seen the level of impact UL has had in vision and language. This is not for the lack of trying. There has been a wide variety of methods developed by the Machine Learning community to use UL to make a meaningful impact in RL. A few prominent directions are as follows:</p>
   <p>
   <ul>
 
-  <li>Learning rich representations of high dimensional observations to aid reinforcement learning [UNREAL (Jaderberg et el., 2016), DARLA (Higgins et al., 2017), TCN (Sermanet et al., 2017), SAC-AE (Yarats et al., 2019), SLAC (Lee et al., 2019), CURL (Srinivas et al., 2020), ATC (Stooke et al., 2020), Bisimulation (Zhang et al., 2020)]</li>
+  <li>Learning rich representations of high dimensional observations to aid reinforcement learning (UNREAL [11], DARLA [12], TCN [13], SAC-AE [14], SLAC [15], CURL [16], DrQ [17], RAD [18], ATC [19], Bisimulation [20], Proto-RL [21]).</li>
   <li>Building world models for planning [Visual MPC (Hirose et al., 2019), World Models (Hafner et al., 2020), Simple (Kaiser et al., 2019), PlaNet (Hafner et al., 2018), Dreamer (Hafner et al., 2019), MuZero (Schrittwieser et al., 2019)]</li>
   <li>Learning to explore environments with sparse reward signals [EX2 (Fu et al., 2019), Curiosity (Pathak et al., 2019), RND (Burda et al., 2018)]</li>
   <li>Learning task agnostic, diverse and reusable skills [VIC (Gregor et al., 2016), VALOR (Achiam et al., 2018), DIAYN (Eysenbach et al., 2018),  DISCERN (Warde-Farley et al., 2018), DADS (Sharma et al., 2019)]</li>
   <li>Extracting signals for free with goal-conditioned and hindsight models [UVFA (Schaul et al., 2015), HER (Andrychowicz et al., 2017), Asymmetric Self-Play (Sukhbaatar et al., 2017), RIG (Nair et al., 2017), DPN (Yu et al., 2017), Learning From Play (Lynch  et al., 2019)]</li>
   <li>Unsupervised Learning in the context of Meta/Multi-Task Learning [CARML (Jabri et al., 2019), UML (Gupta et al., 2018)]</li>
+
   </ul>
   </p>
 
@@ -292,28 +293,37 @@ acknowledgements: ""
 <div class="row">
     <ol>
 <li>Oord et al. "Representation Learning with Contrastive Predictive Coding." arXiv (2018).</li>
-<li>Finn, Chelsea, Ian Goodfellow, and Sergey Levine. "Unsupervised learning for physical interaction through video prediction." NeurIPS (2016).</li>
-<li>Ha, David, and Jürgen Schmidhuber. "Recurrent world models facilitate policy evolution." NeurIPS (2018). </li>
-<li>Hafner, Danijar, et al. "Learning latent dynamics for planning from pixels." ICML (2019).  </li>
-<li>Kipf, Thomas, Elise van der Pol, and Max Welling. "Contrastive learning of structured world models." arXiv.  (2019). </li>
-<li>Schmidhuber, Jürgen. "A possibility for implementing curiosity and boredom in model-building neural controllers." Proc. of the international conference on simulation of adaptive behavior: From animals to animals.  (1991). </li>
-<li>Klyubin, Alexander S., Daniel Polani, and Chrystopher L. Nehaniv. "Empowerment: A universal agent-centric measure of control." IEEE Congress on Evolutionary Computation.  (2005). </li>
-<li>Sutton, Richard S., et al. "Horde: A scalable real-time architecture for learning knowledge from unsupervised sensorimotor interaction." The 10th International Conference on Autonomous Agents and Multiagent Systems-Volume 2. 2011. </li>
-<li>Mohamed, Shakir, and Danilo Jimenez Rezende. "Variational information maximisation for intrinsically motivated reinforcement learning." NeurIPS (2015). </li>
-<li>Pathak, Deepak, et al. "Curiosity-driven exploration by self-supervised prediction." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops.  (2017). </li>
-<li>Ebert, Frederik, et al. "Visual foresight: Model-based deep reinforcement learning for vision-based robotic control." arXiv.  (2018). </li>
-<li>Sekar, Ramanan, et al. "Planning to Explore via Self-Supervised World Models." arXiv.  (2020). </li>
-<li>Lynch, Corey, et al. "Learning latent plans from play." CoRL. (2020). </li>
-<li>Jaderberg, Max, et al. "Reinforcement learning with unsupervised auxiliary tasks." arXiv.(2016). </li>
-<li>Eslami, SM Ali, et al. "Neural scene representation and rendering." Science. (2018). </li>
-<li>Anand, Ankesh, et al. "Unsupervised state representation learning in atari." NeurIPS (2019). </li>
-<li>Srinivas, Aravind et al. "CURL: Contrastive Unsupervised Representations for Reinforcement Learning" ICML (2020). </li>
-<li>Zhang, Amy, et al. "Learning invariant representations for reinforcement learning without reconstruction." arXiv (2020).  </li>
-<li>Mazoure, Bogdan, et al. "Deep reinforcement and infomax learning." NeurIPS (2020). </li>
-<li> Stooke, Adam, et al. "Decoupling representation learning from reinforcement learning." arXiv preprint arXiv:2009.08319 (2020). </li>
-<li>Hansen, Nicklas, et al. "Self-Supervised Policy Adaptation during Deployment." arXiv (2020). </li>
-<li> Agarwal, Rishab, et al. "Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning" ICLR (2021). </li>
-<li>Schwarzer, Max, et al. "Data-Efficient Reinforcement Learning with Self-Predictive Representations." ICLR (2021) </li>
+<li>Chen et al. "A Simple Framework for Contrastive Learning of Visual Representations." ICML (2020).</li>
+<li> He et al. "Momentum Contrast for Unsupervised Visual Representation Learning." CVPR (2020).</li>
+<li>Grill et al. "Bootstrap your own latent: A new approach to self-supervised Learning". NeurIPS (2020).</li>
+<li>Devlin et al. "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." NAACL 2019.</li>
+<li>OpenAI "Language Models are Few-Shot Learners." ArXiv (2020).</li>
+<li>Raffel et al. "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer."  ArXiv (2019).</li>
+<li>Lie et al. "RoBERTa: A Robustly Optimized BERT Pretraining Approach." ArXiv (2019).</li>
+<li>Hénaff et al. "Data-Efficient Image Recognition with Contrastive Predictive Coding." ArXiv (2019).</li>
+<li>Chen et al. "Big Self-Supervised Models are Strong Semi-Supervised Learners." NeurIPS (2020).</li>
+<li>Jaderberg et al. "Reinforcement Learning with Unsupervised Auxiliary Tasks." ICLR 2017.</li>
+<li>Higgins et al. "DARLA: Improving Zero-Shot Transfer in Reinforcement Learning." ICML 2017.</li>
+<li>Sermanet et al. "Time-Contrastive Networks: Self-Supervised Learning from Video." ArXiv 2017.</li>
+<li>Yarats et al. "Improving Sample Efficiency in Model-Free Reinforcement Learning from Images." AAAI (2021).</li>
+<li>Lee et al. "Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model." ArXiv (2019).</li>
+<li>Srinivas et al. "Contrastive Unsupervised Representations for Reinforcement Learning." ICML (2020).</li>
+
+<li>Yarats et al. "Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels." ICLR (2021).</li>
+<li>Laskin et al. "Reinforcement Learning with Augmented Data." NeurIPS (2020).</li>
+<li>Stook et al. "Decoupling Representation Learning from Reinforcement Learning." ArXiv (2020).</li>
+<li>Zhang et al. "Learning Invariant Representations for Reinforcement Learning without Reconstruction." ICLR (2021).</li>
+<li>Yarats et al. "Reinforcement Learning with Prototypical Representations." ArXiv (2021).</li>
+
+
+
+
+
+
+
+
+
+
 
 </ol>
 
