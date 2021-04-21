@@ -286,51 +286,55 @@ acknowledgements: ""
 
 <hr />
 
-
 <div class="row">
     <h2>References</h2>
 </div>
+
+
+
+
 <div class="row">
 <ol>
-<li>Oord et al. "Representation Learning with Contrastive Predictive Coding." arXiv (2018).</li>
-<li>Chen et al. "A Simple Framework for Contrastive Learning of Visual Representations." ICML (2020).</li>
-<li> He et al. "Momentum Contrast for Unsupervised Visual Representation Learning." CVPR (2020).</li>
-<li>Grill et al. "Bootstrap your own latent: A new approach to self-supervised Learning". NeurIPS (2020).</li>
-<li>Devlin et al. "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." NAACL 2019.</li>
-<li>OpenAI "Language Models are Few-Shot Learners." ArXiv (2020).</li>
-<li>Raffel et al. "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer."  ArXiv (2019).</li>
-<li>Lie et al. "RoBERTa: A Robustly Optimized BERT Pretraining Approach." ArXiv (2019).</li>
-<li>Hénaff et al. "Data-Efficient Image Recognition with Contrastive Predictive Coding." ArXiv (2019).</li>
-<li>Chen et al. "Big Self-Supervised Models are Strong Semi-Supervised Learners." NeurIPS (2020).</li>
-<li>Jaderberg et al. "Reinforcement Learning with Unsupervised Auxiliary Tasks." ICLR 2017.</li>
-<li>Higgins et al. "DARLA: Improving Zero-Shot Transfer in Reinforcement Learning." ICML 2017.</li>
-<li>Sermanet et al. "Time-Contrastive Networks: Self-Supervised Learning from Video." ArXiv 2017.</li>
-<li>Yarats et al. "Improving Sample Efficiency in Model-Free Reinforcement Learning from Images." AAAI (2021).</li>
-<li>Lee et al. "Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model." ArXiv (2019).</li>
-<li>Srinivas et al. "Contrastive Unsupervised Representations for Reinforcement Learning." ICML (2020).</li>
-<li>Yarats et al. "Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels." ICLR (2021).</li>
-<li>Laskin et al. "Reinforcement Learning with Augmented Data." NeurIPS (2020).</li>
-<li>Stook et al. "Decoupling Representation Learning from Reinforcement Learning." ArXiv (2020).</li>
-<li>Zhang et al. "Learning Invariant Representations for Reinforcement Learning without Reconstruction." ICLR (2021).</li>
-<li>Yarats et al. "Reinforcement Learning with Prototypical Representations." ArXiv (2021).</li>
-<li>Hirose et al. "Deep Visual MPC-Policy Learning for Navigation." ArXiv (2019).</li>
-<li>Kaiser et al. "Model-Based Reinforcement Learning for Atari." ArXiv (2019).</li>
-<li>Hafner et al. "Learning Latent Dynamics for Planning from Pixels." ICML (2019).</li>
-<li>Hafner et al. "Dream to Control: Learning Behaviors by Latent Imagination." ICLR (2020).<li>Schrittwieser et al. "Mastering Atari, Go, chess and shogi by planning with a learned model." Nature (2020).</li>
-<li>Fu et al. "EX2: Exploration with Exemplar Models for Deep Reinforcement Learning." ArXiv (2017).</li>
-<li>Pathak et al. "Curiosity-driven Exploration by Self-supervised Prediction." ICML (2017).</li>
-<li>Burda et al. "Exploration by random network distillation." ICLR (2019).</li>
-<li>Gregor et al. "Variational Intrinsic Control." ArXiv (2016). </li>
-<li>Achiam et al. "Variational Option Discovery Algorithms." ArXiv (2018).</li>
-<li>Eysenbach et al. "Diversity is All You Need: Learning Skills without a Reward Function." ICLR (2019).</li>
-<li>Sharma et al. "Dynamics-Aware Unsupervised Discovery of Skills." ICLR (2020).</li>
-<li>Schaul et al. "Universal Value Function Approximators." ICML (2015).</li>
-<li>Andrychowicz et al. "Hindsight Experience Replay." NeurIPS (2017).</li>
-<li>Sukhbaatar et al. "Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play." ICLR (2018).</li>
-<li>Nair et al. "Visual Reinforcement Learning with Imagined Goals." NeurIPS (2018).</li>
-<li>Lynch et al. "Learning Latent Plans from Play." CoRL (2019).</li>
-<li>Jabri et al. "Unsupervised Curricula for Visual Meta-Reinforcement Learning." NeurIPS (2019).</li>
-<li>Gupta et al. "Unsupervised Meta-Learning for Reinforcement Learning." ICLR (2019).</li>
+  <li>Oord et al. "Representation Learning with Contrastive Predictive Coding." arXiv (2018).</li>
+  <li>Chen et al. "A Simple Framework for Contrastive Learning of Visual Representations." ICML (2020).</li>
+  <li> He et al. "Momentum Contrast for Unsupervised Visual Representation Learning." CVPR (2020).</li>
+  <li>Grill et al. "Bootstrap your own latent: A new approach to self-supervised Learning". NeurIPS (2020).</li>
+  <li>Devlin et al. "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding." NAACL 2019.</li>
+  <li>OpenAI "Language Models are Few-Shot Learners." ArXiv (2020).</li>
+  <li>Raffel et al. "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer."  ArXiv (2019).</li>
+  <li>Lie et al. "RoBERTa: A Robustly Optimized BERT Pretraining Approach." ArXiv (2019).</li>
+  <li>Hénaff et al. "Data-Efficient Image Recognition with Contrastive Predictive Coding." ArXiv (2019).</li>
+  <li>Chen et al. "Big Self-Supervised Models are Strong Semi-Supervised Learners." NeurIPS (2020).</li>
+  <li>Jaderberg et al. "Reinforcement Learning with Unsupervised Auxiliary Tasks." ICLR 2017.</li>
+  <li>Higgins et al. "DARLA: Improving Zero-Shot Transfer in Reinforcement Learning." ICML 2017.</li>
+  <li>Sermanet et al. "Time-Contrastive Networks: Self-Supervised Learning from Video." ArXiv 2017.</li>
+  <li>Yarats et al. "Improving Sample Efficiency in Model-Free Reinforcement Learning from Images." AAAI (2021).</li>
+  <li>Lee et al. "Stochastic Latent Actor-Critic: Deep Reinforcement Learning with a Latent Variable Model." ArXiv (2019).</li>
+  <li>Srinivas et al. "Contrastive Unsupervised Representations for Reinforcement Learning." ICML (2020).</li>
+  <li>Yarats et al. "Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels." ICLR (2021).</li>
+  <li>Laskin et al. "Reinforcement Learning with Augmented Data." NeurIPS (2020).</li>
+  <li>Stook et al. "Decoupling Representation Learning from Reinforcement Learning." ArXiv (2020).</li>
+  <li>Zhang et al. "Learning Invariant Representations for Reinforcement Learning without Reconstruction." ICLR (2021).</li>
+  <li>Yarats et al. "Reinforcement Learning with Prototypical Representations." ArXiv (2021).</li>
+  <li>Hirose et al. "Deep Visual MPC-Policy Learning for Navigation." ArXiv (2019).</li>
+  <li>Kaiser et al. "Model-Based Reinforcement Learning for Atari." ArXiv (2019).</li>
+  <li>Hafner et al. "Learning Latent Dynamics for Planning from Pixels." ICML (2019).</li>
+  <li>Hafner et al. "Dream to Control: Learning Behaviors by Latent Imagination." ICLR (2020).</li>
+  <li>Schrittwieser et al. "Mastering Atari, Go, chess and shogi by planning with a learned model." Nature (2020).</li>
+  <li>Fu et al. "EX2: Exploration with Exemplar Models for Deep Reinforcement Learning." ArXiv (2017).</li>
+  <li>Pathak et al. "Curiosity-driven Exploration by Self-supervised Prediction." ICML (2017).</li>
+  <li>Burda et al. "Exploration by random network distillation." ICLR (2019).</li>
+  <li>Gregor et al. "Variational Intrinsic Control." ArXiv (2016). </li>
+  <li>Achiam et al. "Variational Option Discovery Algorithms." ArXiv (2018).</li>
+  <li>Eysenbach et al. "Diversity is All You Need: Learning Skills without a Reward Function." ICLR (2019).</li>
+  <li>Sharma et al. "Dynamics-Aware Unsupervised Discovery of Skills." ICLR (2020).</li>
+  <li>Schaul et al. "Universal Value Function Approximators." ICML (2015).</li>
+  <li>Andrychowicz et al. "Hindsight Experience Replay." NeurIPS (2017).</li>
+  <li>Sukhbaatar et al. "Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play." ICLR (2018).</li>
+  <li>Nair et al. "Visual Reinforcement Learning with Imagined Goals." NeurIPS (2018).</li>
+  <li>Lynch et al. "Learning Latent Plans from Play." CoRL (2019).</li>
+  <li>Jabri et al. "Unsupervised Curricula for Visual Meta-Reinforcement Learning." NeurIPS (2019).</li>
+  <li>Gupta et al. "Unsupervised Meta-Learning for Reinforcement Learning." ICLR (2019).</li>
 
 </ol>
 
