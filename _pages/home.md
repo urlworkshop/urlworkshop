@@ -317,7 +317,7 @@ acknowledgements: ""
 <li>Hirose et al. "Deep Visual MPC-Policy Learning for Navigation." ArXiv (2019).</li>
 <li>Kaiser et al. "Model-Based Reinforcement Learning for Atari." ArXiv (2019).</li>
 <li>Hafner et al. "Learning Latent Dynamics for Planning from Pixels." ICML (2019).</li>
-<li>Hafner et al. "Dream to Control: Learning Behaviors by Latent Imagination." ICLR (2020).</li>Schrittwieser et al. "Mastering Atari, Go, chess and shogi by planning with a learned model." Nature (2020).</li>
+<li>Hafner et al. "Dream to Control: Learning Behaviors by Latent Imagination." ICLR (2020).<li>Schrittwieser et al. "Mastering Atari, Go, chess and shogi by planning with a learned model." Nature (2020).</li>
 <li>Fu et al. "EX2: Exploration with Exemplar Models for Deep Reinforcement Learning." ArXiv (2017).</li>
 <li>Pathak et al. "Curiosity-driven Exploration by Self-supervised Prediction." ICML (2017).</li>
 <li>Burda et al. "Exploration by random network distillation." ICLR (2019). </li>
