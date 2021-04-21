@@ -9,14 +9,19 @@ paper: true
 acknowledgements: ""
 ---
 <div class="alert" role="alert">
+</div>
+<div class="row" id="dates">
 
-
+  <h1>Unsupervised Reinforcement Learning @ ICML 2021</h1>
 
 </div>
-<div class="row reverse">
-    <h1>Unsupervised Reinforcement Learning @ ICML 2021</h1>
-    <br>
+
+  <br>
       <br>
+
+
+<div class="row reverse">
+
 
   <div class="col-xs-12 col-md-7">
 
@@ -31,10 +36,6 @@ acknowledgements: ""
   <div class="col-xs-12 col-md-4">
     <img class="cover" src="/static/img/cover.png">
   </div>
-
-    <br>
-      <br>
-
 
 
 
