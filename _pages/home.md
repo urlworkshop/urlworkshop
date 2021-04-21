@@ -17,7 +17,7 @@ acknowledgements: ""
     <h1>Unsupervised Reinforcement Learning @ ICML 2021</h1>
     <br>
       <br>
-    <img class="cover" src="/static/img/cover.png">
+    <img class="cover" src="/static/img/cover.jpeg">
     <br>
       <br>
 
