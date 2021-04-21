@@ -17,20 +17,28 @@ acknowledgements: ""
     <h1>Unsupervised Reinforcement Learning @ ICML 2021</h1>
     <br>
       <br>
-    <img class="cover" src="/static/img/cover.png">
-    <br>
-      <br>
 
-
-</div>
-
-<div class="row" id="abstract">
-
+  <div class="col-xs-12 col-md-7">
 
     <p>
         Unsupervised learning (UL) has begun to deliver on its promise in the recent past with tremendous progress made in the fields of natural language processing and computer vision whereby large scale unsupervised pre-training has enabled fine-tuning to downstream supervised learning tasks with limited labeled data. This is particularly encouraging and appealing in the context of reinforcement learning considering that it is expensive to perform rollouts in the real world with annotations either in the form of reward signals or human demonstrations. We therefore believe that a workshop in the intersection of unsupervised and reinforcement learning (RL) is timely and we hope to bring together researchers with diverse views on how to make further progress in this exciting and open-ended subfield.
 
     </p>
+  <div>
+
+  <div class="col-md-1 hidden-xs">
+  </div>
+  <div class="col-xs-12 col-md-4">
+    <img class="cover" src="/static/img/cover.png">
+  </div>
+
+    <br>
+      <br>
+
+
+
+
+
 </div>
 
 
