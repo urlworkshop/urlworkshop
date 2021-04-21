@@ -17,7 +17,7 @@ acknowledgements: ""
     <h1>Unsupervised Reinforcement Learning @ ICML 2021</h1>
     <br>
       <br>
-    <img class="cover" src="/static/img/cover.jpeg">
+    <img class="cover" src="/static/img/cover.png">
     <br>
       <br>
 
@@ -199,7 +199,7 @@ acknowledgements: ""
   <ul>
 
   <li>Learning rich representations of high dimensional observations to aid reinforcement learning (UNREAL [11], DARLA [12], TCN [13], SAC-AE [14], SLAC [15], CURL [16], DrQ [17], RAD [18], ATC [19], Bisimulation [20], Proto-RL [21]).</li>
-  <li>Building world models for planning (Visual MPC [22], Simple [23], PlaNet [24], Dreamer [25], MuZero [26]).</li>
+  <li>Building world models for planning (Visual MPC [22], Simple [23], PlaNet [24], Dreamer [25], MuZero [26], CFM [41]).</li>
   <li>Learning to explore environments with sparse reward signals (EX2 [27], Curiosity [28], RND [29]).</li>
   <li>Learning task agnostic, diverse and reusable skills (VIC [30], VALOR [31], DIAYN [32],, DADS [33]).</li>
   <li>Extracting signals for free with goal-conditioned and hindsight models (UVFA [34], HER [35], Asymmetric Self-Play [36], RIG [37], Learning From Play [38]).</li>
@@ -335,6 +335,7 @@ acknowledgements: ""
   <li>Lynch et al. "Learning Latent Plans from Play." CoRL (2019).</li>
   <li>Jabri et al. "Unsupervised Curricula for Visual Meta-Reinforcement Learning." NeurIPS (2019).</li>
   <li>Gupta et al. "Unsupervised Meta-Learning for Reinforcement Learning." ICLR (2019).</li>
+  <li>Yan et al. "Learning Predictive Representations for Deformable Objects Using Contrastive Estimation." CoRL (2020).</li>
 
 </ol>
 
