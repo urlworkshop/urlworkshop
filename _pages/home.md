@@ -133,7 +133,7 @@ acknowledgements: ""
 </div>
 
 <div class="row">
-<div class="col-xs-6 col-lg-3 people">
+  <div class="col-xs-6 col-lg-3 people">
     <a href="https://people.eecs.berkeley.edu/~pabbeel/">
       <img class="people-pic" src="{{ "/static/img/people/pieter_abbeel.png" | prepend:site.baseurl }}">
     </a>
@@ -182,7 +182,7 @@ acknowledgements: ""
       <h6>Google Brain</h6>
     </div>
   </div>
-</div>
+
 
   <div class="col-xs-6 col-lg-3 people">
     <a href="https://danijar.com/">
@@ -193,6 +193,7 @@ acknowledgements: ""
       <h6>University of Toronto</h6>
     </div>
   </div>
+
   <div class="col-xs-6 col-lg-3 people">
     <a href="https://nke001.github.io/">
       <img class="people-pic" src="{{ "/static/img/people/nan_rosemary_ke.jpeg" | prepend:site.baseurl }}">
@@ -211,8 +212,7 @@ acknowledgements: ""
       <h6>Facebook AI Research</h6>
     </div>
   </div>
-
-
+</div>
 
 <hr />
 
