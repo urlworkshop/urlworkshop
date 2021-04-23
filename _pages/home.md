@@ -281,15 +281,7 @@ acknowledgements: ""
       <h6>NYU</h6>
     </div>
   </div>
-  <div class="col-xs-6 col-lg-3 people">
-    <a href="https://amyzhang.github.io/">
-      <img class="people-pic" src="{{ "/static/img/people/amy_zhang.png" | prepend:site.baseurl }}">
-    </a>
-    <div class="people-name">
-      <a href="https://amyzhang.github.io/">Amy Zhang</a>
-      <h6>McGill University / Mila / FAIR</h6>
-    </div>
-  </div>
+
   <div class="col-xs-6 col-lg-3 people">
     <a href="https://people.eecs.berkeley.edu/~aravind/">
       <img class="people-pic" src="{{ "/static/img/people/aravind_srinivas.png" | prepend:site.baseurl }}">
@@ -306,6 +298,16 @@ acknowledgements: ""
     <div class="people-name">
       <a href="http://denis-yarats.info/">Denis Yarats</a>
       <h6>NYU / FAIR</h6>
+    </div>
+  </div>
+
+  <div class="col-xs-6 col-lg-3 people">
+    <a href="https://amyzhang.github.io/">
+      <img class="people-pic" src="{{ "/static/img/people/amy_zhang.png" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="https://amyzhang.github.io/">Amy Zhang</a>
+      <h6>McGill University / Mila / FAIR</h6>
     </div>
   </div>
 </div>
