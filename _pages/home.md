@@ -114,7 +114,7 @@ acknowledgements: ""
        Note that as per ICML guidelines, we don't accept works previously published in other conferences on machine learning, but are open to works that are currently under submission to a conference (such as NeurIPS 2021).</p>
 
       <p>
-        Submissions should be uploaded on OpenReview: <a class="red" href="https://openreview.net/group?id=ICML.cc/2021/Workshop/URL">URL submission link</a>
+        Submissions should be uploaded on OpenReview: <a class="red" href="https://openreview.net/group?id=ICML.cc/2021/Workshop/URL">URL submission link</a>.
       </p>
       <p>
         In case of any issues or questions, feel free to email the workshop organizers at: <a href="mailto:url.icml2021@gmail.com" class="red">url.icml2021@gmail.com</a>.
