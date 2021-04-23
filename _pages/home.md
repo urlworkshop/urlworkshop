@@ -142,6 +142,27 @@ acknowledgements: ""
       <h6>UC Berkeley</h6>
     </div>
   </div>
+
+ <div class="col-xs-6 col-lg-3 people">
+    <a href="https://web.mit.edu/krallen/www/">
+      <img class="people-pic" src="{{ "/static/img/people/kelsey_allen.png" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="https://web.mit.edu/krallen/www/">Kelsey Allen</a>
+      <h6>DeepMind</h6>
+    </div>
+  </div>
+
+  <div class="col-xs-6 col-lg-3 people">
+    <a href="http://www.cs.umd.edu/~kdbrant/">
+      <img class="people-pic" src="{{ "/static/img/people/kiante_brantley.png" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="http://www.cs.umd.edu/~kdbrant/">Kiante Brantley</a>
+      <h6>Maryland College Park</h6>
+    </div>
+  </div>
+
   <div class="col-xs-6 col-lg-3 people">
     <a href="https://ai.stanford.edu/~cbfinn/">
       <img class="people-pic" src="{{ "/static/img/people/chelsea_finn.jpeg" | prepend:site.baseurl }}">
@@ -151,15 +172,18 @@ acknowledgements: ""
       <h6>Stanford</h6>
     </div>
   </div>
+
   <div class="col-xs-6 col-lg-3 people">
-    <a href="https://web.mit.edu/krallen/www/">
-      <img class="people-pic" src="{{ "/static/img/people/kelsey_allen.png" | prepend:site.baseurl }}">
+    <a href="https://research.google/people/105004/">
+      <img class="people-pic" src="{{ "/static/img/people/david_ha.jpeg" | prepend:site.baseurl }}">
     </a>
     <div class="people-name">
-      <a href="https://web.mit.edu/krallen/www/">Kelsey Allen</a>
-      <h6>DeepMind</h6>
+      <a href="https://research.google/people/105004/">David Ha</a>
+      <h6>Google Brain</h6>
     </div>
   </div>
+</div>
+
   <div class="col-xs-6 col-lg-3 people">
     <a href="https://danijar.com/">
       <img class="people-pic" src="{{ "/static/img/people/danijar_hafner.jpg" | prepend:site.baseurl }}">
@@ -187,25 +211,8 @@ acknowledgements: ""
       <h6>Facebook AI Research</h6>
     </div>
   </div>
-  <div class="col-xs-6 col-lg-3 people">
-    <a href="http://www.cs.umd.edu/~kdbrant/">
-      <img class="people-pic" src="{{ "/static/img/people/kiante_brantley.png" | prepend:site.baseurl }}">
-    </a>
-    <div class="people-name">
-      <a href="http://www.cs.umd.edu/~kdbrant/">Kiante Brantley</a>
-      <h6>Maryland College Park</h6>
-    </div>
-  </div>
-  <div class="col-xs-6 col-lg-3 people">
-    <a href="https://research.google/people/105004/">
-      <img class="people-pic" src="{{ "/static/img/people/david_ha.jpeg" | prepend:site.baseurl }}">
-    </a>
-    <div class="people-name">
-      <a href="https://research.google/people/105004/">David Ha</a>
-      <h6>Google Brain</h6>
-    </div>
-  </div>
-</div>
+
+
 
 <hr />
 
