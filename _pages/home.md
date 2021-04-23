@@ -133,6 +133,15 @@ acknowledgements: ""
 </div>
 
 <div class="row">
+<div class="col-xs-6 col-lg-3 people">
+    <a href="https://people.eecs.berkeley.edu/~pabbeel/">
+      <img class="people-pic" src="{{ "/static/img/people/pieter_abbeel.png" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>
+      <h6>UC Berkeley</h6>
+    </div>
+  </div>
   <div class="col-xs-6 col-lg-3 people">
     <a href="https://ai.stanford.edu/~cbfinn/">
       <img class="people-pic" src="{{ "/static/img/people/chelsea_finn.jpeg" | prepend:site.baseurl }}">
