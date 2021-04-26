@@ -210,7 +210,7 @@ acknowledgements: ""
     </a>
     <div class="people-name">
       <a href="http://chercheurs.lille.inria.fr/~lazaric/Webpage/Home/Home.html">Alessandro Lazaric</a>
-      <h6>Facebook AI Research</h6>
+      <h6>FAIR</h6>
     </div>
   </div>
 
@@ -220,7 +220,7 @@ acknowledgements: ""
     </a>
     <div class="people-name">
       <a href="http://yann.lecun.com/">Yann LeCun</a>
-      <h6>NYU and Facebook AI Research</h6>
+      <h6>NYU / FAIR</h6>
     </div>
   </div>
 </div>
