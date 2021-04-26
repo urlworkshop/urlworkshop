@@ -102,6 +102,7 @@ acknowledgements: ""
               <li>What are the most effective ways of combining UL with RL?</li>
               <li>What are the settings in which UL can be most beneficial in RL?</li>
               <li>How is Representation Learning for RL different from downstream supervised tasks?</li>
+              <li>What theoretical guarantees can be derived for unsupervised exploration and representation learning in RL?</li>
               <li>How can UL improve RL in terms of sample efficiency, generalization, exploration?</li>
               <li>How can UL and Skill Discovery be maximally synergetic?</li>
               <li>How does the role of UL differ across Model-based RL, Model-free On-policy RL, Model-free Off-policy RL, Offline RL?</li>
