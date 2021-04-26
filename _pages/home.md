@@ -134,7 +134,7 @@ acknowledgements: ""
 </div>
 
 <div class="row">
-  <div class="col-xs-6 col-lg-3 people">
+  <div class="col-xs-6 col-lg-4 people">
     <a href="https://people.eecs.berkeley.edu/~pabbeel/">
       <img class="people-pic" src="{{ "/static/img/people/pieter_abbeel.png" | prepend:site.baseurl }}">
     </a>
@@ -144,7 +144,7 @@ acknowledgements: ""
     </div>
   </div>
 
- <div class="col-xs-6 col-lg-3 people">
+ <div class="col-xs-6 col-lg-4 people">
     <a href="https://web.mit.edu/krallen/www/">
       <img class="people-pic" src="{{ "/static/img/people/kelsey_allen.png" | prepend:site.baseurl }}">
     </a>
@@ -154,7 +154,7 @@ acknowledgements: ""
     </div>
   </div>
 
-  <div class="col-xs-6 col-lg-3 people">
+  <div class="col-xs-6 col-lg-4 people">
     <a href="http://www.cs.umd.edu/~kdbrant/">
       <img class="people-pic" src="{{ "/static/img/people/kiante_brantley.png" | prepend:site.baseurl }}">
     </a>
@@ -164,7 +164,7 @@ acknowledgements: ""
     </div>
   </div>
 
-  <div class="col-xs-6 col-lg-3 people">
+  <div class="col-xs-6 col-lg-4 people">
     <a href="https://ai.stanford.edu/~cbfinn/">
       <img class="people-pic" src="{{ "/static/img/people/chelsea_finn.jpeg" | prepend:site.baseurl }}">
     </a>
@@ -174,7 +174,7 @@ acknowledgements: ""
     </div>
   </div>
 
-  <div class="col-xs-6 col-lg-3 people">
+  <div class="col-xs-6 col-lg-4 people">
     <a href="https://research.google/people/105004/">
       <img class="people-pic" src="{{ "/static/img/people/david_ha.jpeg" | prepend:site.baseurl }}">
     </a>
@@ -185,7 +185,7 @@ acknowledgements: ""
   </div>
 
 
-  <div class="col-xs-6 col-lg-3 people">
+  <div class="col-xs-6 col-lg-4 people">
     <a href="https://danijar.com/">
       <img class="people-pic" src="{{ "/static/img/people/danijar_hafner.jpg" | prepend:site.baseurl }}">
     </a>
@@ -195,7 +195,7 @@ acknowledgements: ""
     </div>
   </div>
 
-  <div class="col-xs-6 col-lg-3 people">
+  <div class="col-xs-6 col-lg-4 people">
     <a href="https://nke001.github.io/">
       <img class="people-pic" src="{{ "/static/img/people/nan_rosemary_ke.jpeg" | prepend:site.baseurl }}">
     </a>
@@ -204,7 +204,7 @@ acknowledgements: ""
       <h6>MILA</h6>
     </div>
   </div>
-  <div class="col-xs-6 col-lg-3 people">
+  <div class="col-xs-6 col-lg-4 people">
     <a href="http://chercheurs.lille.inria.fr/~lazaric/Webpage/Home/Home.html">
       <img class="people-pic" src="{{ "/static/img/people/alessandro_lazaric.png" | prepend:site.baseurl }}">
     </a>
@@ -214,7 +214,7 @@ acknowledgements: ""
     </div>
   </div>
 
-  <div class="col-xs-6 col-lg-3 people">
+  <div class="col-xs-6 col-lg-4 people">
     <a href="http://yann.lecun.com/">
       <img class="people-pic" src="{{ "/static/img/people/yann_lecun.png" | prepend:site.baseurl }}">
     </a>
