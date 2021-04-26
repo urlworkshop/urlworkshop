@@ -213,6 +213,16 @@ acknowledgements: ""
       <h6>Facebook AI Research</h6>
     </div>
   </div>
+
+  <div class="col-xs-6 col-lg-3 people">
+    <a href="http://yann.lecun.com/">
+      <img class="people-pic" src="{{ "/static/img/people/yann_lecun.png" | prepend:site.baseurl }}">
+    </a>
+    <div class="people-name">
+      <a href="http://yann.lecun.com/">Yann LeCun</a>
+      <h6>NYU and Facebook AI Research</h6>
+    </div>
+  </div>
 </div>
 
 <hr />
