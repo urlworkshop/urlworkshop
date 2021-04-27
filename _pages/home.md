@@ -241,7 +241,7 @@ acknowledgements: ""
   <li>Learning task agnostic, diverse and reusable skills (VIC [30], VALOR [31], DIAYN [32], DADS [33]).</li>
   <li>Extracting signals for free with goal-conditioned and hindsight models (UVFA [34], HER [35], Asymmetric Self-Play [36], RIG [37], Learning From Play [38]).</li>
   <li>Unsupervised Learning in the context of Meta/Multi-Task Learning (CARML [39], UML [40]).</li>
-  <li>Sample complecity bounds for unsupervised exploration and representation learning in RL (FLAMBE [42], BMDP [43], MaxEnt exploration [47], DisCO [44], reward free exploration [45], Francis [46]) .</li>
+  <li>Sample complexity bounds for unsupervised exploration and representation learning in RL (FLAMBE [42], BMDP [43], MaxEnt exploration [47], DisCO [44], reward free exploration [45], Francis [46]) .</li>
 
   </ul>
   </p>
