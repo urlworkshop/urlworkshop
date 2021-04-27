@@ -241,7 +241,7 @@ acknowledgements: ""
   <li>Learning task agnostic, diverse and reusable skills (VIC [30], VALOR [31], DIAYN [32], DADS [33]).</li>
   <li>Extracting signals for free with goal-conditioned and hindsight models (UVFA [34], HER [35], Asymmetric Self-Play [36], RIG [37], Learning From Play [38]).</li>
   <li>Unsupervised Learning in the context of Meta/Multi-Task Learning (CARML [39], UML [40]).</li>
-  <li>Sample complecity bounds for unsupervised exploration and representation learning in RL (FLAMBE [42], BMDP [43], DisCO [44], reward free exploration [45], Francis [46]) .</li>
+  <li>Sample complecity bounds for unsupervised exploration and representation learning in RL (FLAMBE [42], BMDP [43], MaxEnt exploration [47], DisCO [44], reward free exploration [45], Francis [46]) .</li>
 
   </ul>
   </p>
@@ -378,9 +378,10 @@ acknowledgements: ""
   <li>Yan et al. "Learning Predictive Representations for Deformable Objects Using Contrastive Estimation." CoRL (2020).</li>
   <li>Agarwal et al. "FLAMBE: Structural Complexity and Representation Learning of Low Rank MDPs." NeurIPS (2020).</li>
   <li>Feng et al. "Provably Efficient Exploration for Reinforcement Learning Using Unsupervised Learning." NeurIPS (2020).</li>
-  <li>Feng et al. "Provably Efficient Exploration for Reinforcement Learning Using Unsupervised Learning." NeurIPS (2020).</li>
-  <li>Feng et al. "Provably Efficient Exploration for Reinforcement Learning Using Unsupervised Learning." NeurIPS (2020).</li>
+  <li>Tarbouriech et al. "Improved Sample Complexity for Incremental Autonomous Exploration in MDPs." NeurIPS (2020).</li>
+  <li>Jin et al. "Reward-Free Exploration for Reinforcement Learning." ArXiv (2020).</li>
   <li>Zanette et al. "Provably Efficient Reward-Agnostic Navigation with Linear Value Iteration." NeurIPS (2020).</li>
+  <li>Hazan et al. "Provably Efficient Maximum Entropy Exploration." ArXiv (2020).</li>
 
 </ol>
 
