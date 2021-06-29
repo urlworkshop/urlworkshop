@@ -213,16 +213,6 @@ acknowledgements: ""
       <h6>FAIR</h6>
     </div>
   </div>
-
-  <div class="col-xs-6 col-lg-4 people">
-    <a href="http://yann.lecun.com/">
-      <img class="people-pic" src="{{ "/static/img/people/yann_lecun.png" | prepend:site.baseurl }}">
-    </a>
-    <div class="people-name">
-      <a href="http://yann.lecun.com/">Yann LeCun</a>
-      <h6>NYU / FAIR</h6>
-    </div>
-  </div>
 </div>
 
 <hr />
