@@ -72,7 +72,7 @@ acknowledgements: ""
         </tr>
         <tr>
           <td>Workshop</td>
-          <td>July 24, 2021</td>
+          <td>July 23, 2021</td>
         </tr>
       </tbody>
     </table>
