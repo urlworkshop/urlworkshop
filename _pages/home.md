@@ -145,7 +145,9 @@ acknowledgements: ""
         </tr>
         <tr>
           <td>4:00 - 4:30 PM</td>
+          <td>
           Invited Talk by Chelsea Finn
+          </td>
         </tr>
         <tr>
           <td>4:30 - 5:00 PM</td>
@@ -332,6 +334,74 @@ acknowledgements: ""
 </div>
 
 <hr />
+
+<div class="row" id="accepted">
+  <div class="col-xs-12">
+    <h2>Accepted papers</h2>
+  </div>
+</div>
+<div class="row">
+<div class="col-md-12">
+    <br />
+    <p> Camera-ready versions of all the papers are available on <a href="https://openreview.net/group?id=ICML.cc/2021/Workshop/URL"> OpenReview </a> </p>
+    </div>
+  <div class="col-md-12">
+    <ol>
+<li><b>[Oral]</b> <i>Planning from Pixels in Environments with Combinatorially Hard Search Spaces</i>. Marco Bagatella, Miroslav Olšák, Michal Rolinek, Georg Martius.</li>
+<li><b>[Oral]</b> <i>Learning Task Agnostic Skills with Data-driven Guidance</i>. Even Klemsdal, Sverre Herland, Abdulmajid Murad.</li>
+<li><b>[Oral]</b> <i>Discovering and Achieving Goals with World Models</i>. Russell Mendonca, Oleh Rybkin, Kostas Daniilidis, Danijar Hafner, Deepak Pathak.</li>
+
+
+
+<li><b>[Poster]</b> <i>Did I do that? Blame as a means to identify controlled effects in reinforcement learning</i>. Oriol Corcoll Andreu, Raul Vicente.</li>
+<li><b>[Poster]</b> <i>Visualizing MuZero Models</i>. joery de Vries, Ken Voskuil, Thomas M. Moerland, Aske Plaat.</li>
+<li><b>[Poster]</b> <i>Pretrained Encoders are All You Need</i>. Mina Khan, Advait Prashant Rane, Srivatsa P, Shriram Chenniappa, Rishabh Anand, Sherjil Ozair, Patricia Maes.</li>
+<li><b>[Poster]</b> <i>Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation</i>. Nicklas Hansen, Hao Su, Xiaolong Wang.</li>
+<li><b>[Poster]</b> <i>The Importance of Non-Markovianity in Maximum State Entropy Exploration</i>. Mirco Mutti, Riccardo De Santi, Marcello Restelli.</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+<li><b>[Poster]</b> <i></i>. .</li>
+
+
+
+
+
+</ol>
+  </div>
+</div>
 
 <div class="row" id="intro">
         <h2>Introduction</h2>
