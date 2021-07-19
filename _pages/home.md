@@ -358,43 +358,36 @@ acknowledgements: ""
 <li><b>[Poster]</b> <i>Pretrained Encoders are All You Need</i>. Mina Khan, Advait Prashant Rane, Srivatsa P, Shriram Chenniappa, Rishabh Anand, Sherjil Ozair, Patricia Maes.</li>
 <li><b>[Poster]</b> <i>Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation</i>. Nicklas Hansen, Hao Su, Xiaolong Wang.</li>
 <li><b>[Poster]</b> <i>The Importance of Non-Markovianity in Maximum State Entropy Exploration</i>. Mirco Mutti, Riccardo De Santi, Marcello Restelli.</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-<li><b>[Poster]</b> <i></i>. .</li>
-
+<li><b>[Poster]</b> <i>Reward-Free Policy Space Compression for Reinforcement Learning</i>. Mirco Mutti, Stefano Del Col, Marcello Restelli.</li>
+<li><b>[Poster]</b> <i>Learning to Explore Multiple Environments without Rewards</i>. Mirco Mutti, Mattia Mancassola, Marcello Restelli.</li>
+<li><b>[Poster]</b> <i>Beyond Fine-Tuning: Transferring Behavior in Reinforcement Learning</i>. Víctor Campos, Pablo Sprechmann, Steven Stenberg Hansen, Andre Barreto, Steven Kapturowski, Alex Vitvitskyi, Adria Puigdomenech Badia, Charles Blundell.</li>
+<li><b>[Poster]</b> <i>Direct then Diffuse: Incremental Unsupervised Skill Discovery for State Covering and Goal Reaching</i>. Pierre-Alexandre Kamienny, Jean Tarbouriech, Alessandro Lazaric, Ludovic Denoyer.</li>
+<li><b>[Poster]</b> <i>Exploration and preference satisfaction trade-off in reward-free learning</i>. Noor Sajid, Panagiotis Tigas, Alexey Zakharov, Zafeirios Fountas, Karl Friston.</li>
+<li><b>[Poster]</b> <i>Hierarchical Few-Shot Imitation with Skill Transition Models</i>. Kourosh Hakhamaneshi, Ruihan Zhao, Albert Zhan, Pieter Abbeel, Michael Laskin.</li>
+<li><b>[Poster]</b> <i>Explore and Control with Adversarial Surprise</i>. Arnaud Fickinger, Natasha Jaques, Samyak Parajuli, Michael Chang, Nicholas Rhinehart, Glen Berseth, Stuart Russell, Sergey Levine.</li>
+<li><b>[Poster]</b> <i>MASAI: Multi-agent Summative Assessment Improvement for Unsupervised Environment Design</i>. Yiping Wang, Michael Brandon Haworth.</li>
+<li><b>[Poster]</b> <i>Exploration via Empowerment Gain: Combining Novelty, Surprise and Learning Progress</i>. Philip Becker-Ehmck, Maximilian Karl, Jan Peters, Patrick van der Smagt.</li>
+<li><b>[Poster]</b> <i>Learning Task-Relevant Representations with Selective Contrast for Reinforcement Learning in a Real-World Application</i>. Flemming Brieger, Daniel Alexander Braun, Sascha Lange.</li>
+<li><b>[Poster]</b> <i>Unsupervised Skill-Discovery and Skill-Learning in Minecraft</i>. Juan José Nieto, Roger Creus Castanyer, Xavier Giro-i-Nieto.</li>
+<li><b>[Poster]</b> <i>Reward is enough for convex MDPs</i>. Tom Zahavy, Brendan O'Donoghue, Guillaume Desjardins, Satinder Singh.</li>
+<li><b>[Poster]</b> <i>Discovering Diverse Nearly Optimal Policies with Successor Features</i>. Tom Zahavy, Brendan O'Donoghue, Andre Barreto, Sebastian Flennerhag, Volodymyr Mnih, Satinder Singh.</li>
+<li><b>[Poster]</b> <i>Intrinsic Control of Variational Beliefs in Dynamic Partially-Observed Visual Environments</i>. Nicholas Rhinehart, Jenny Wang, Glen Berseth, John D Co-Reyes, Danijar Hafner, Chelsea Finn, Sergey Levine.</li>
+<li><b>[Poster]</b> <i>Data-Efficient Exploration with Self Play for Atari</i>. Michael Laskin, Catherine Cang, Ryan Rudes, Pieter Abbeel.</li>
+<li><b>[Poster]</b> <i>Learning to Represent State with Perceptual Schemata</i>. Wilka Torrico Carvalho, Murray Shanahan.</li>
+<li><b>[Poster]</b> <i>Exploration-Driven Representation Learning in Reinforcement Learning</i>. Akram Erraqabi, Mingde Zhao, Marlos C. Machado, Yoshua Bengio, Sainbayar Sukhbaatar, Ludovic Denoyer, Alessandro Lazaric.</li>
+<li><b>[Poster]</b> <i>Inverse Reinforcement Learning from Suboptimal Demonstrations</i>. Andi Peng, Aviv Netanyahu, Pulkit Agrawal.</li>
+<li><b>[Poster]</b> <i>Reinforcement Learning as One Big Sequence Modeling Problem</i>. Michael Janner, Qiyang Li, Sergey Levine.</li>
+<li><b>[Poster]</b> <i>Episodic Memory for Subjective-Timescale Models</i>. Alexey Zakharov, Matthew Crosby, Zafeirios Fountas.</li>
+<li><b>[Poster]</b> <i>Decision Transformer: Reinforcement Learning via Sequence Modeling</i>. Lili Chen, Kevin Lu, Aravind Rajeswaran, Kimin Lee, Aditya Grover, Michael Laskin, Pieter Abbeel, Aravind Srinivas, Igor Mordatch.</li>
+<li><b>[Poster]</b> <i>Visual Adversarial Imitation Learning using Variational Models</i>. Rafael Rafailov, Tianhe Yu, Aravind Rajeswaran, Chelsea Finn.</li>
+<li><b>[Poster]</b> <i>Control-Oriented Model-Based Reinforcement Learning with Implicit Differentiation</i>. Evgenii Nikishin, Romina Abachi, Rishabh Agarwal, Pierre-Luc Bacon.</li>
+<li><b>[Poster]</b> <i>CoBERL: Contrastive BERT for Reinforcement Learning</i>. Andrea Banino, Adria Puigdomenech Badia, Jacob C Walker, Tim Scholtes, Jovana Mitrovic, Charles Blundell.</li>
+<li><b>[Poster]</b> <i>SparseDice: Imitation Learning for Temporally Sparse Data via Regularization</i>. Alberto Camacho, Izzeddin Gur, Marcin Lukasz Moczulski, Ofir Nachum, Aleksandra Faust.</li>
+<li><b>[Poster]</b> <i>Representation Learning for Out-of-distribution Generalization in Reinforcement Learning</i>. Frederik Träuble, Andrea Dittadi, Manuel Wuthrich, Felix Widmaier, Peter Vincent Gehler, Ole Winther, Francesco Locatello, Olivier Bachem, Bernhard Schölkopf, Stefan Bauer.</li>
+<li><b>[Poster]</b> <i>Tangent Space Least Adaptive Clustering</i>. James Buenfil, Samson J Koelle, Marina Meila.</li>
+<li><b>[Poster]</b> <i>Density-Based Bonuses on Learned Representations for Reward-Free Exploration in Deep Reinforcement Learning</i>. Omar Darwiche Domingues, Corentin Tallec, Remi Munos, Michal Valko.</li>
+<li><b>[Poster]</b> <i>Decoupling Exploration and Exploitation in Reinforcement Learning</i>. Lukas Schäfer, Filippos Christianos, Josiah Hanna, Stefano V Albrecht.</li>
+<li><b>[Poster]</b> <i>Disentangled Predictive Representation for Meta-Reinforcement Learning</i>. Sephora Madjiheurem, Laura Toni.</li>
 
 
 
