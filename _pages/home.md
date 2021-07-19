@@ -14,6 +14,8 @@ acknowledgements: ""
 
 <div class="row" id="dates">
   <h1>Unsupervised Reinforcement Learning @ ICML 2021</h1>
+  <br />
+  <h4>Friday, July 23, 2021</h4>
 </div>
 
 <br>
@@ -47,6 +49,120 @@ acknowledgements: ""
 <br />
 
 <hr />
+
+<div class="row" id="schedule">
+  <div class="col-xs-12">
+    <h2>Official schedule</h2>
+    <br />
+    <p> All times listed below are in Eastern Time (ET). See the <a href="https://icml.cc/Workshops/workshopschedule?id=123"> ICML virtual page </a> for information about how to join these sessions. </p>
+    <p>Other important links:</p>
+     <ul>
+              <li><b>GatherTown</b>: <a href="">Link</a></li>
+              <li><b>Zoom</b>: <a href="">Link</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <table class="table table-striped">
+      <tbody>
+        <tr>
+          <td>08:45 - 09:00 AM</td>
+          <td>
+            Opening remarks
+          </td>
+        </tr>
+        <tr>
+          <td>09:00 - 09:30 AM</td>
+          <td>
+            Invited talk by David Ha
+          </td>
+        </tr>
+        <tr>
+          <td>09:30 - 10:00 AM</td>
+          <td>
+            Invited talk by Alessandro Lazaric
+          </td>
+        </tr>
+        <tr>
+          <td>10:00 - 10:30 AM</td>
+          <td>
+            Invited Talk by Kelsey Allen
+          </td>
+        </tr>
+        <tr>
+          <td>10:30 - 11:30 AM</td>
+          <td>
+            Coffee break and Poster Session
+          </td>
+        </tr>
+        <tr>
+          <td>11:30 - 12:00 PM</td>
+          <td>
+            Invited Talk by Danijar Hafner
+          </td>
+        </tr>
+        <tr>
+          <td>12:00 - 12:30 PM</td>
+          <td>
+            Invited Talk by Nan Rosemary Ke
+          </td>
+        </tr>
+        <tr>
+          <td>12:30 - 1:30 PM</td>
+          <td>
+            Lunch and Poster Session
+          </td>
+        </tr>
+        <tr>
+          <td>1:30 - 2:30 PM</td>
+            <td>
+            Oral Presentations
+            <ul>
+            <li>Discovering and Achieving Goals with World Models<br />
+            (Russell Mendonca, Oleh Rybkin, Kostas Daniilidis, Danijar Hafner, Deepak Pathak)</li>
+            <li>Planning from Pixels in Environments with Combinatorially Hard Search Spaces<br />
+            (Marco Bagatella, Miroslav Olšák, Michal Rolinek, Georg Martius)
+            </li>
+            <li>Learning Task Agnostic Skills with Data-driven Guidance<br />
+            (Even Klemsdal, Sverre Herland, Abdulmajid Murad)
+            </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>2:30 - 3:00 PM</td>
+          <td>
+            Invited Talk by Kianté Brantley
+          </td>
+        </tr>
+        <tr>
+          <td>3:00 - 4:00 PM</td>
+          <td>
+            Coffee break and Poster Session
+          </td>
+        </tr>
+        <tr>
+          <td>4:00 - 4:30 PM</td>
+          Invited Talk by Chelsea Finn
+        </tr>
+        <tr>
+          <td>4:30 - 5:00 PM</td>
+          <td>
+            Invited Talk by Pieter Abbeel
+          </td>
+        </tr>
+        <tr>
+          <td>5:00 - 5:30 PM</td>
+          <td>
+            Panel Discussion
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
 <div class="row" id="dates">
 
