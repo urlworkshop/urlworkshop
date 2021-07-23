@@ -58,7 +58,7 @@ acknowledgements: ""
     <p>Other important links:</p>
      <ul>
               <li><b>GatherTown</b>: <a href="">Link</a></li>
-              <li><b>Zoom</b>: <a href="">Link</a></li>
+              <li><b>Zoom</b>: <a href="https://us02web.zoom.us/j/7494637481?pwd=TVBqNjYvQnB2VGp6aUtCV053TXBHdz09">Link</a> Passcode: 203825</li>
     </ul>
   </div>
 </div>
