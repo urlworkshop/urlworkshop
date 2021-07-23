@@ -57,8 +57,8 @@ acknowledgements: ""
     <p> All times listed below are in Eastern Time (ET). See the <a href="https://icml.cc/Workshops/workshopschedule?id=123"> ICML virtual page </a> for information about how to join these sessions. </p>
     <p>Other important links:</p>
      <ul>
-              <li><b>ICML</b>: <a href="">https://icml.cc/virtual/2021/workshop/8364</a></li>
-              <li><b>GatherTown</b>: <a href="">https://eventhosts.gather.town/app/Ou60SFvBA0URxlKK/url-poster-room-1</a></li>
+              <li><b>ICML</b>: <a href="https://icml.cc/virtual/2021/workshop/8364">Link</a></li>
+              <li><b>GatherTown</b>: <a href="https://eventhosts.gather.town/app/Ou60SFvBA0URxlKK/url-poster-room-1">Link</a></li>
               <li><b>Zoom</b>: <a href="https://us02web.zoom.us/j/7494637481?pwd=TVBqNjYvQnB2VGp6aUtCV053TXBHdz09">Link</a> Passcode: 203825</li>
     </ul>
   </div>
